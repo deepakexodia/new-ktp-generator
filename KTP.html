@@ -1,0 +1,235 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parentBox {
+            /* border: 2px solid red; */
+            height: 96vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box {
+            /* border: 2px solid red; */
+            height: 440px;
+            width: 676px;
+            background-image: url("assets/4e13603209f5de09193fb87194fce7b8.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            /* margin: auto; */
+            box-sizing: border-box;
+            padding: 102px 0px 0px 192px;
+            position: relative;
+        }
+
+        .box input {
+            background: transparent;
+            border: none;
+            font-size: 17px;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+
+        .box .nik {
+            margin-bottom: 5px;
+            margin-top: 3px;
+            height: 29px;
+            font-size: 23px;
+        }
+
+        .box input:not(.nik) {
+
+            height: 17px;
+            margin-bottom: 1.5px;
+            margin-bottom: 1.9px;
+        }
+
+        .golDarah {
+            position: relative;
+            left: 103px;
+            top: -2px;
+            left: 118px;
+            width: 34px;
+        }
+
+        .profileimg {
+            /* border: 2px solid red; */
+            position: absolute;
+            right: 47px;
+            top: 126px;
+            height: 186px;
+            width: 146px;
+          
+        }
+
+        .region {
+            width: 80px;
+        }
+
+        .tem {
+            width: 92px;
+        }
+
+        /* 
+        .generatebtn {
+            position: relative;
+            left: 23px;
+            top: 94px;
+            font-size: 29px;
+            border-radius: 18px;
+
+            background-color: lightgreen;
+            box-shadow: 0px 0px 7px 0px #000000;
+        }
+        .generatebtn:hover{
+            cursor: grab;
+        } */
+
+        .generatebtn {
+            background: #3498db;
+            background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+            background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+            background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+            background-image: -o-linear-gradient(top, #3498db, #2980b9);
+            background-image: linear-gradient(to bottom, #3498db, #2980b9);
+            -webkit-border-radius: 28;
+            -moz-border-radius: 28;
+            border-radius: 28px;
+            text-shadow: 0px 0px 30px #666666;
+            font-family: Arial;
+            color: #ffffff;
+            font-size: 23px;
+            padding: 10px 20px 10px 20px;
+            text-decoration: none;
+            position: relative;
+            left: 23px;
+            top: 94px;
+            border: 0;
+            cursor: grab;
+        }
+
+        .generatebtn:hover {
+            background: #3cb0fd;
+            background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+            background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+            background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+            background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+            background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+            text-decoration: none;
+        }
+
+        .shrtdisc {
+            /* border: 1px solid red; */
+            position: absolute;
+
+            right: -65px;
+            bottom: 80px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="parentBox">
+        <div class="box">
+            <img class="profileimg" src="./assets/Portrait_Placeholder.png">
+            <input type="text" class="nik" value="">
+            </br>
+            <input type="text" class="name" value="">
+            </br>
+
+            <input type="text" class="region" value="KENT,">
+            <input type="text" class="tem" value="03-08-1951">
+            </br>
+            <input type="text" class="jenis" value="" style="width:114px" ;>
+
+            <input type="text" class="golDarah" value="" ;>
+            </br>
+            <input type="text" class="alamat" value="">
+            </br>
+            <input type="text" class="rt" value="">
+            </br>
+            <input type="text" class="kel" value="">
+            </br>
+            <input type="text" class="kec" value="">
+            </br>
+            <input type="text" class="agama" value="">
+            </br>
+            <input type="text" class="status" value="">
+            </br>
+            <input type="text" class="pek" value="">
+            </br>
+            <input type="text" class="kew" value="">
+            </br>
+            <input type="text" class="ber" value="">
+            </br>
+            <div class="shrtdisc">
+                <input type="text" class="region2" value="">
+                </br>
+                <input type="text" class="tem" value="">
+
+            </div>
+            <!-- <button class="generatebtn" onclick=generate()>Generate Mock Data</button> -->
+        </div>
+    </div>
+
+    <script>
+        // Create an XMLHttpRequest object
+        const xhttp = new XMLHttpRequest();
+
+        // Define a callback function
+        xhttp.onload = function (res) {
+            // Here you can use the Data
+
+
+
+            var data = res.currentTarget.responseText
+            var obj = JSON.parse(data)
+            var userdata = obj.results[0]
+
+            var yyyy = userdata.dob.date.substring(0, 4)
+            var mm = userdata.dob.date.substring(5, 7)
+            var dd = userdata.dob.date.substring(9, 10)
+            dd = parseInt(dd) < 10 ? "0" + dd : dd
+
+            document.getElementsByClassName("profileimg")[0].src = userdata.picture.large
+            document.getElementsByClassName("nik")[0].value = Math.floor(Math.random() * 10000000000000000)
+            document.getElementsByClassName("name")[0].value = userdata.name.first + " " + userdata.name.last
+            // document.getElementsByClassName("region")[0].value = userdata.location.city.substring(0, 6)
+            // document.getElementsByClassName("tem")[0].value = dd + "-" + mm + "-" + yyyy
+            document.getElementsByClassName("jenis")[0].value = userdata.gender == "male" ? "laki-laki" : "perempuan"
+            document.getElementsByClassName("golDarah")[0].value = "O+"
+            document.getElementsByClassName("alamat")[0].value = userdata.name.first
+            document.getElementsByClassName("rt")[0].value = "004/026"
+            document.getElementsByClassName("kel")[0].value = userdata.location.street.name
+            document.getElementsByClassName("kec")[0].value = userdata.location.state
+            document.getElementsByClassName("agama")[0].value = ["islam", "kristen", "katholik", "hindu", "budha", "khonghucu", "penghayat kepercayaan", "lainnya"][Math.floor(Math.random() * 8)]
+            document.getElementsByClassName("status")[0].value = ["belum kawin", "kawin", "cerai hidup", "cerai mati"][Math.floor(Math.random() * 4)]
+            document.getElementsByClassName("pek")[0].value = "artis"
+            document.getElementsByClassName("kew")[0].value = userdata.location.country
+            document.getElementsByClassName("ber")[0].value = "SEUMUR HIDUP"
+            document.getElementsByClassName("tem")[1].value = dd + "-" + mm + "-" + yyyy
+            document.getElementsByClassName("region2")[0].value = userdata.location.city.substring(0, 6)
+
+
+
+        }
+
+        // Send a request
+        xhttp.open("GET", "https://randomuser.me/api/?nat=us");
+        xhttp.send();
+
+        function generate() {
+            location.reload();
+        }
+
+
+    </script>
+</body>
+
+</html>
