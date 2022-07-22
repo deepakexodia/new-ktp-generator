@@ -25,6 +25,7 @@
             box-sizing: border-box;
             padding: 102px 0px 0px 192px;
             position: relative;
+            transform: scale(.6);
         }
 
         .box input {
@@ -131,6 +132,9 @@
             bottom: 80px;
 
         }
+        body {
+            background-color: #424242 ;
+        }
     </style>
 </head>
 
@@ -143,8 +147,8 @@
             <input type="text" class="name" value="">
             </br>
 
-            <input type="text" class="region" value="KENT,">
-            <input type="text" class="tem" value="03-08-1951">
+            <input type="text" class="region" >
+            <input type="text" class="tem" >
             </br>
             <input type="text" class="jenis" value="" style="width:114px" ;>
 
@@ -202,6 +206,8 @@
             document.getElementsByClassName("name")[0].value = userdata.name.first + " " + userdata.name.last
             // document.getElementsByClassName("region")[0].value = userdata.location.city.substring(0, 6)
             // document.getElementsByClassName("tem")[0].value = dd + "-" + mm + "-" + yyyy
+            document.getElementsByClassName("region")[0].value = "KENT"
+            document.getElementsByClassName("tem")[0].value = "03-08-1951"
             document.getElementsByClassName("jenis")[0].value = userdata.gender == "male" ? "laki-laki" : "perempuan"
             document.getElementsByClassName("golDarah")[0].value = "O+"
             document.getElementsByClassName("alamat")[0].value = userdata.name.first
