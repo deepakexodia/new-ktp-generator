@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script type='text/javascript' src='./data.js'></script>
     <style>
         .parentBox {
             /* border: 2px solid red; */
@@ -65,7 +66,7 @@
             top: 126px;
             height: 186px;
             width: 146px;
-          
+
         }
 
         .region {
@@ -132,8 +133,9 @@
             bottom: 80px;
 
         }
+
         body {
-            background-color: #424242 ;
+            background-color: #424242;
         }
     </style>
 </head>
@@ -141,14 +143,14 @@
 <body>
     <div class="parentBox">
         <div class="box">
-            <img class="profileimg" src="./assets/Portrait_Placeholder.png">
+            <img class="profileimg" src="./assets/v3_0215088.jpg">
             <input type="text" class="nik" value="">
             </br>
             <input type="text" class="name" value="">
             </br>
 
-            <input type="text" class="region" >
-            <input type="text" class="tem" >
+            <input type="text" class="region">
+            <input type="text" class="tem">
             </br>
             <input type="text" class="jenis" value="" style="width:114px" ;>
 
@@ -168,7 +170,7 @@
             </br>
             <input type="text" class="pek" value="">
             </br>
-            <input type="text" class="kew" value="">
+            <input type="text" class="kew" value="WNI">
             </br>
             <input type="text" class="ber" value="">
             </br>
@@ -178,61 +180,54 @@
                 <input type="text" class="tem" value="">
 
             </div>
-            <!-- <button class="generatebtn" onclick=generate()>Generate Mock Data</button> -->
+
         </div>
     </div>
 
     <script>
-        // Create an XMLHttpRequest object
-        const xhttp = new XMLHttpRequest();
-
-        // Define a callback function
-        xhttp.onload = function (res) {
-            // Here you can use the Data
 
 
 
-            var data = res.currentTarget.responseText
-            var obj = JSON.parse(data)
-            var userdata = obj.results[0]
-
-            var yyyy = userdata.dob.date.substring(0, 4)
-            var mm = userdata.dob.date.substring(5, 7)
-            var dd = userdata.dob.date.substring(9, 10)
-            dd = parseInt(dd) < 10 ? "0" + dd : dd
-
-            document.getElementsByClassName("profileimg")[0].src = userdata.picture.large
-            document.getElementsByClassName("nik")[0].value = Math.floor(Math.random() * 10000000000000000)
-            document.getElementsByClassName("name")[0].value = userdata.name.first + " " + userdata.name.last
-            // document.getElementsByClassName("region")[0].value = userdata.location.city.substring(0, 6)
-            // document.getElementsByClassName("tem")[0].value = dd + "-" + mm + "-" + yyyy
-            document.getElementsByClassName("region")[0].value = "KENT"
-            document.getElementsByClassName("tem")[0].value = "03-08-1951"
-            document.getElementsByClassName("jenis")[0].value = userdata.gender == "male" ? "laki-laki" : "perempuan"
-            document.getElementsByClassName("golDarah")[0].value = "O+"
-            document.getElementsByClassName("alamat")[0].value = userdata.name.first
-            document.getElementsByClassName("rt")[0].value = "004/026"
-            document.getElementsByClassName("kel")[0].value = userdata.location.street.name
-            document.getElementsByClassName("kec")[0].value = userdata.location.state
-            document.getElementsByClassName("agama")[0].value = ["islam", "kristen", "katholik", "hindu", "budha", "khonghucu", "penghayat kepercayaan", "lainnya"][Math.floor(Math.random() * 8)]
-            document.getElementsByClassName("status")[0].value = ["belum kawin", "kawin", "cerai hidup", "cerai mati"][Math.floor(Math.random() * 4)]
-            document.getElementsByClassName("pek")[0].value = "artis"
-            document.getElementsByClassName("kew")[0].value = userdata.location.country
-            document.getElementsByClassName("ber")[0].value = "SEUMUR HIDUP"
-            document.getElementsByClassName("tem")[1].value = dd + "-" + mm + "-" + yyyy
-            document.getElementsByClassName("region2")[0].value = userdata.location.city.substring(0, 6)
 
 
-
+        function randomIntFromInterval(min, max) { // min and max included 
+            return Math.floor(Math.random() * (max - min + 1) + min)
         }
+        const rndInt = randomIntFromInterval(1, 50)
+        // console.log(rndInt)
+        var singleUserData = allUserData[rndInt]
+        // console.log(singleUserData);
 
-        // Send a request
-        xhttp.open("GET", "https://randomuser.me/api/?nat=us");
-        xhttp.send();
 
-        function generate() {
-            location.reload();
-        }
+        document.getElementsByClassName("nik")[0].value = Math.floor(Math.random() * 10000000000000000)
+        document.getElementsByClassName("name")[0].value = singleUserData.name
+        document.getElementsByClassName("region")[0].value = "KENT"
+        document.getElementsByClassName("tem")[0].value = singleUserData.date
+        document.getElementsByClassName("jenis")[0].value = singleUserData.boolean == "Yes" ? "laki-laki" : "perempuan"
+        document.getElementsByClassName("golDarah")[0].value = "O+"
+        document.getElementsByClassName("alamat")[0].value = singleUserData.address
+        document.getElementsByClassName("rt")[0].value = "004/026"
+        document.getElementsByClassName("kel")[0].value = singleUserData.region
+        document.getElementsByClassName("kec")[0].value = singleUserData.city
+        document.getElementsByClassName("agama")[0].value = ["islam", "kristen", "katholik", "hindu", "budha", "khonghucu", "penghayat kepercayaan", "lainnya"][Math.floor(Math.random() * 8)]
+        document.getElementsByClassName("status")[0].value = ["belum kawin", "kawin", "cerai hidup", "cerai mati"][Math.floor(Math.random() * 4)]
+        document.getElementsByClassName("pek")[0].value = "artis"
+        document.getElementsByClassName("ber")[0].value = "SEUMUR HIDUP"
+        document.getElementsByClassName("region2")[0].value = singleUserData.city1
+        document.getElementsByClassName("tem")[1].value = singleUserData.date1
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     </script>
