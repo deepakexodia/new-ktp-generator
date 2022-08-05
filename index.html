@@ -60,12 +60,18 @@
         }
 
         .profileimg {
-            /* border: 2px solid red; */
-            position: absolute;
-            right: 47px;
-            top: 126px;
             height: 186px;
             width: 146px;
+
+        }
+
+        .photoContainer {
+            position: absolute;
+            right: 3px;
+            top: 126px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
 
         }
 
@@ -73,8 +79,8 @@
             width: 80px;
         }
 
-        .tem {
-            width: 92px;
+        .shrtdisc .tem {
+            text-align: center;
         }
 
         /* 
@@ -125,15 +131,12 @@
             text-decoration: none;
         }
 
-        .shrtdisc {
-            /* border: 1px solid red; */
-            position: absolute;
-
-            right: -65px;
-            bottom: 80px;
-
+        .region2 {
+            text-align: center;
         }
-
+        .shrtdisc {
+            margin-top: 6px;
+        }
         body {
             background-color: #424242;
         }
@@ -143,7 +146,17 @@
 <body>
     <div class="parentBox">
         <div class="box">
-            <img class="profileimg" src="">
+
+            <div class="photoContainer">
+                <img class="profileimg" src="">
+
+                <div class="shrtdisc">
+                    <input type="text" class="region2" value="">
+                    </br>
+                    <input type="text" class="tem" value="">
+
+                </div>
+            </div>
             <input type="text" class="nik" value="">
             </br>
             <input type="text" class="name" value="">
@@ -174,12 +187,7 @@
             </br>
             <input type="text" class="ber" value="">
             </br>
-            <div class="shrtdisc">
-                <input type="text" class="region2" value="">
-                </br>
-                <input type="text" class="tem" value="">
 
-            </div>
 
         </div>
     </div>
@@ -203,7 +211,7 @@
         // console.log(singleUserSource)
         console.log(document.getElementsByClassName("profileimg"))
 
-        document.getElementsByClassName("profileimg")[0].src ="./" +singleUserSource.source
+        document.getElementsByClassName("profileimg")[0].src = "./" + singleUserSource.source
         // console.log(document.getElementsByClassName("profileimg").src)
         document.getElementsByClassName("nik")[0].value = Math.floor(Math.random() * 10000000000000000)
         document.getElementsByClassName("name")[0].value = singleUserData.name
