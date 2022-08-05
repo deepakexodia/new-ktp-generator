@@ -213,7 +213,7 @@
 
         document.getElementsByClassName("profileimg")[0].src = "./" + singleUserSource.source
         // console.log(document.getElementsByClassName("profileimg").src)
-        document.getElementsByClassName("nik")[0].value = Math.floor(Math.random() * 10000000000000000)
+        document.getElementsByClassName("nik")[0].value = (Math.random() * 100000000000000000).toString().substring(0,16)
         document.getElementsByClassName("name")[0].value = singleUserData.name
         document.getElementsByClassName("region")[0].value = "KENT"
         document.getElementsByClassName("tem")[0].value = singleUserData.date
