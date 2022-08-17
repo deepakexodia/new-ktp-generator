@@ -219,7 +219,7 @@
         document.getElementsByClassName("tem")[0].value = singleUserData.date
         document.getElementsByClassName("jenis")[0].value = singleUserSource.gender == "male" ? "laki-laki" : "perempuan"
         document.getElementsByClassName("golDarah")[0].value = "O+"
-        document.getElementsByClassName("alamat")[0].value = singleUserData.address
+        document.getElementsByClassName("alamat")[0].value = singleUserData.address.substring(0,20)
         document.getElementsByClassName("rt")[0].value = "004/026"
         document.getElementsByClassName("kel")[0].value = singleUserData.region
         document.getElementsByClassName("kec")[0].value = singleUserData.city
