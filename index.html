@@ -213,7 +213,11 @@
 
         document.getElementsByClassName("profileimg")[0].src = "./" + singleUserSource.source
         // console.log(document.getElementsByClassName("profileimg").src)
-        document.getElementsByClassName("nik")[0].value = (Math.random() * 100000000000000000).toString().substring(0,16)
+        let oneToNine = () => (Math.floor(Math.random() * 8) + 1).toString();
+        let zeroToNine = () => Math.floor(Math.random() * 10).toString();
+        let zeroToOne = () => Math.floor(Math.random() * 2).toString();
+        
+        document.getElementsByClassName("nik")[0].value = oneToNine() + oneToNine() + zeroToNine() + zeroToNine() + zeroToNine() + zeroToNine() + zeroToNine() + zeroToNine() + zeroToOne() + zeroToNine() + zeroToNine() + zeroToNine() + zeroToNine() + zeroToNine() + zeroToNine() + zeroToNine();
         document.getElementsByClassName("name")[0].value = singleUserData.name
         document.getElementsByClassName("region")[0].value = "KENT"
         document.getElementsByClassName("tem")[0].value = singleUserData.date
