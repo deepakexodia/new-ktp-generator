@@ -194,7 +194,29 @@
 
     <script>
 
+function getRandomDate() {
+  function startDate() {
+    let date = new Date();
+    date.setFullYear(date.getFullYear() - 60);
+    return date
+  }
+    function endDate() {
+        let date = new Date();
+        date.setFullYear(date.getFullYear() -18);
+        return date
+    }
+  const minValue = startDate().getTime();;
+  const maxValue = endDate().getTime();;
+  const timestamp = Math.floor(
+    Math.random() * (maxValue - minValue + 1) + minValue
+  );
+  return new Date(timestamp).toLocaleDateString();
+}
 
+var initial = getRandomDate().split(
+  /\//
+);
+var getDate = [initial[1], initial[0], initial[2]].join("-");
 
 
 
@@ -228,7 +250,7 @@
         document.getElementsByClassName("pek")[0].value = "artis"
         document.getElementsByClassName("ber")[0].value = "SEUMUR HIDUP"
         document.getElementsByClassName("region2")[0].value = singleUserData.city1
-        document.getElementsByClassName("tem")[1].value = singleUserData.date1
+        document.getElementsByClassName("tem")[1].value = getDate
 
 
 
@@ -247,4 +269,4 @@
     </script>
 </body>
 
-</html>
+</html> 
