@@ -218,13 +218,13 @@ var dob = getRandomDate();
 var initial = dob.toLocaleDateString().split(
   /\//
 );
-var getDate = [(initial[1].length == 1 ? '0' : '') + initial[1], (initial[0].length == 1 ? '0' : '') + initial[0], initial[2]].join("-");
+var getDate = [(initial[0].length == 1 ? '0' : '') + initial[0], (initial[1].length == 1 ? '0' : '') + initial[1], initial[2]].join("-");
 
 dob.setFullYear(dob.getFullYear() + 18);
 var initial = dob.toLocaleDateString().split(
   /\//
 );
-var issueDate = [(initial[1].length == 1 ? '0' : '') + initial[1], (initial[0].length == 1 ? '0' : '') + initial[0], initial[2]].join("-");
+var issueDate = [(initial[0].length == 1 ? '0' : '') + initial[0], (initial[1].length == 1 ? '0' : '') + initial[1], initial[2]].join("-");
 
 
 
