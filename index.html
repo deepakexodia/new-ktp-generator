@@ -202,7 +202,7 @@ function getRandomDate() {
   }
     function endDate() {
         let date = new Date();
-        date.setFullYear(date.getFullYear() -18);
+        date.setFullYear(date.getFullYear() -19);
         return date
     }
   const minValue = startDate().getTime();;
@@ -210,13 +210,21 @@ function getRandomDate() {
   const timestamp = Math.floor(
     Math.random() * (maxValue - minValue + 1) + minValue
   );
-  return new Date(timestamp).toLocaleDateString();
+  return new Date(timestamp);
 }
 
-var initial = getRandomDate().split(
+
+var dob = getRandomDate();
+var initial = dob.toLocaleDateString().split(
   /\//
 );
-var getDate = [initial[1], initial[0], initial[2]].join("-");
+var getDate = [(initial[1].length == 1 ? '0' : '') + initial[1], (initial[0].length == 1 ? '0' : '') + initial[0], initial[2]].join("-");
+
+dob.setFullYear(dob.getFullYear() + 18);
+var initial = dob.toLocaleDateString().split(
+  /\//
+);
+var issueDate = [(initial[1].length == 1 ? '0' : '') + initial[1], (initial[0].length == 1 ? '0' : '') + initial[0], initial[2]].join("-");
 
 
 
@@ -238,7 +246,7 @@ var getDate = [initial[1], initial[0], initial[2]].join("-");
         document.getElementsByClassName("nik")[0].value = (Math.random() * 100000000000000000).toString().substring(0,16)
         document.getElementsByClassName("name")[0].value = singleUserData.name
         document.getElementsByClassName("region")[0].value = "KENT"
-        document.getElementsByClassName("tem")[0].value = singleUserData.date
+        document.getElementsByClassName("tem")[0].value = issueDate
         document.getElementsByClassName("jenis")[0].value = singleUserSource.gender == "male" ? "laki-laki" : "perempuan"
         document.getElementsByClassName("golDarah")[0].value = "O+"
         document.getElementsByClassName("alamat")[0].value = singleUserData.address.substring(0,20)
