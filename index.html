@@ -240,10 +240,24 @@ var issueDate = [(initial[0].length == 1 ? '0' : '') + initial[0], (initial[1].l
         var singleUserSource = userImages[rndInt]
         // console.log(singleUserSource)
         console.log(document.getElementsByClassName("profileimg"))
+        
+        function generateNIK(gender) {
+            const currentDate = new Date();
+            const currentYear = currentDate.getFullYear().toString().substr(-2);
+            const randomBirthYear = Math.floor(Math.random() * 100).toString().padStart(2, '0');
+            const randomBirthMonth = Math.floor(Math.random() * 12 + 1).toString().padStart(2, '0');
+            const randomBirthDay = (Math.floor(Math.random() * 28 + 1) + (gender == 'male' ? 0 : 40)).toString().padStart(2, '0');
+            const randomCityCode = Math.floor(Math.random() * 100).toString().padStart(2, '0');
+            const randomDistrictCode = Math.floor(Math.random() * 100).toString().padStart(2, '0');  
+            const randomSerialNumber = Math.floor(Math.random() * 10000).toString().padStart(4, '0');
+            const provinceCode = '11';  
+            const nik = `${provinceCode}${randomCityCode}${randomDistrictCode}${randomBirthDay}${randomBirthMonth}${randomBirthYear}${randomSerialNumber}`;
+            return nik;
+        }
 
         document.getElementsByClassName("profileimg")[0].src = "./" + singleUserSource.source
         // console.log(document.getElementsByClassName("profileimg").src)
-        document.getElementsByClassName("nik")[0].value = (Math.random() * 100000000000000000).toString().substring(0,16)
+        document.getElementsByClassName("nik")[0].value = generateNIK(singleUserSource.gender)
         document.getElementsByClassName("name")[0].value = singleUserData.name
         document.getElementsByClassName("region")[0].value = "KENT"
         document.getElementsByClassName("tem")[0].value = issueDate
