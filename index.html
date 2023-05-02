@@ -241,6 +241,12 @@ var issueDate = [(initial[0].length == 1 ? '0' : '') + initial[0], (initial[1].l
         // console.log(singleUserSource)
         console.log(document.getElementsByClassName("profileimg"))
         
+        function getRandomProvinceCode() {
+            const provinceCodes = ['11', '12', '13', '14', '15', '16', '17', '18', '19', '21', '31', '32', '33', '34', '35', '36', '51', '52', '53', '61', '62', '63', '64', '65', '71', '72', '73', '74', '75', '76', '81', '82', '91', '92'];
+            return arr[Math.floor(Math.random() * arr.length)];
+        }
+
+        
         function generateNIK(gender) {
             const currentDate = new Date();
             const currentYear = currentDate.getFullYear().toString().substr(-2);
@@ -250,7 +256,7 @@ var issueDate = [(initial[0].length == 1 ? '0' : '') + initial[0], (initial[1].l
             const randomCityCode = Math.floor(Math.random() * 100).toString().padStart(2, '0');
             const randomDistrictCode = Math.floor(Math.random() * 100).toString().padStart(2, '0');  
             const randomSerialNumber = Math.floor(Math.random() * 10000).toString().padStart(4, '0');
-            const provinceCode = '11';  
+            const provinceCode = getRandomProvinceCode();  
             const nik = `${provinceCode}${randomCityCode}${randomDistrictCode}${randomBirthDay}${randomBirthMonth}${randomBirthYear}${randomSerialNumber}`;
             return nik;
         }
