@@ -246,11 +246,22 @@ var issueDate = [(initial[0].length == 1 ? '0' : '') + initial[0], (initial[1].l
             return provinceCodes[Math.floor(Math.random() * provinceCodes.length)];
         }
 
+        function generateDOB() {
+            // Calculate the minimum(78 yrs age) and maximum(18 yrs age) timestamps for the desired age range
+            const minTimestamp = Date.now() - (78 * 365 * 24 * 60 * 60 * 1000);
+            const maxTimestamp = Date.now() - (18 * 365 * 24 * 60 * 60 * 1000);
+
+            // Generate a random timestamp between the minimum and maximum
+            const randomTimestamp = Math.floor(Math.random() * (maxTimestamp - minTimestamp + 1)) + minTimestamp;
+
+            // Create a new Date object using the random timestamp
+            const dob = new Date(randomTimestamp);
+
+            return dob;
+      }
         
         function generateNIK(gender) {
-            const currentDate = new Date();
-            const currentYear = currentDate.getFullYear().toString().substr(-2);
-            const randomBirthYear = Math.floor(Math.random() * 100).toString().padStart(2, '0');
+            const randomBirthYear = generateDOB().getFullYear().toString().substr(-2).padStart(2, '0');
             const randomBirthMonth = Math.floor(Math.random() * 12 + 1).toString().padStart(2, '0');
             const randomBirthDay = (Math.floor(Math.random() * 28 + 1) + (gender == 'male' ? 0 : 40)).toString().padStart(2, '0');
             const randomCityCode = Math.floor(Math.random() * 100).toString().padStart(2, '0');
