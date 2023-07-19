@@ -187,7 +187,6 @@
             </br>
 
             <input type="text" class="region">
-            <span>,&nbsp;</span>
             <input type="text" class="tem">
             </br>
             <input type="text" class="jenis" value="" style="width:114px" ;>
@@ -301,7 +300,7 @@ var issueDate = [(initial[0].length == 1 ? '0' : '') + initial[0], (initial[1].l
         // console.log(document.getElementsByClassName("profileimg").src)
         document.getElementsByClassName("nik")[0].value = generateNIK(singleUserSource.gender)
         document.getElementsByClassName("name")[0].value = singleUserData.name
-        document.getElementsByClassName("region")[0].value = "JAKARTA"
+        document.getElementsByClassName("region")[0].value = "JAKARTA,"
         document.getElementsByClassName("tem")[0].value = issueDate
         document.getElementsByClassName("jenis")[0].value = singleUserSource.gender == "male" ? "laki-laki" : "perempuan"
         document.getElementsByClassName("golDarah")[0].value = "O+"
