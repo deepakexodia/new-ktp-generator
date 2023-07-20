@@ -44,7 +44,7 @@
         }
 
         input {
-            position: relative;
+            position: absolute;
             background: transparent;
             border: none;
             font-family: Arial;
@@ -53,7 +53,7 @@
             text-transform: uppercase;
             transform: skew(0deg, -1.3deg);
             color: transparent;
-            text-shadow: 0 0 1px rgba(0,0,0,1);
+            text-shadow: 0 0 1px rgba(0, 0, 0, 1);
         }
 
         .nik {
@@ -64,9 +64,25 @@
         }
 
         .name {
-            left: -24px;
-            top: 228px;
+            left: 220px;
+            top: 233px;
             text-shadow: 0 0 1px rgba(0, 0, 0, 1);
+        }
+
+        .photoContainer {
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            left: 422px;
+            top: 215px;
+            transform: skew(0deg, -1.3deg);
+        }
+
+        .profileimg {
+            height: 135px;
+            width: 107px;
+            filter: blur(1px);
         }
 
         /* .box .nik {
@@ -89,22 +105,6 @@
             top: -2px;
             left: 118px;
             width: 34px;
-        }
-
-        .profileimg {
-            height: 186px;
-            width: 146px;
-
-        }
-
-        .photoContainer {
-            position: absolute;
-            right: 3px;
-            top: 126px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-
         }
 
         .region {
@@ -130,28 +130,23 @@
         input {
             font-family: Arial;
         } */
-
-        
     </style>
 </head>
 
 <body>
     <div class="parentBox">
         <div class="box">
-
-            <!-- <div class="photoContainer">
+            <div class="photoContainer">
                 <img class="profileimg" src="">
-
                 <div class="shrtdisc">
                     <input type="text" class="region2" value="">
                     </br>
                     <input type="text" class="tem" value="">
-
                 </div>
-            </div> -->
+            </div>
             <input type="text" class="nik" value="">
             <input type="text" class="name" value="">
-<!-- 
+            <!-- 
             <input type="text" class="region">
             <input type="text" class="tem">
             </br>
@@ -177,8 +172,6 @@
             </br>
             <input type="text" class="ber" value="">
             </br> -->
-
-
         </div>
     </div>
 
@@ -262,7 +255,7 @@
             return nik;
         }
 
-        // document.getElementsByClassName("profileimg")[0].src = "./" + singleUserSource.source
+        document.getElementsByClassName("profileimg")[0].src = "./" + singleUserSource.source
         document.getElementsByClassName("nik")[0].value = generateNIK(singleUserSource.gender)//"3174096105960007"
         document.getElementsByClassName("name")[0].value = singleUserData.name
         // document.getElementsByClassName("region")[0].value = "JAKARTA,"
