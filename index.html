@@ -44,9 +44,11 @@
         }
 
         input {
+            position: relative;
             background: transparent;
             border: none;
-            font-size: 17px;
+            font-family: Arial;
+            font-size: 13px;
             font-weight: normal;
             text-transform: uppercase;
             transform: skew(0deg, -1.3deg);
@@ -56,11 +58,15 @@
 
         .nik {
             font-family: ocr;
-            position: relative;
             left: 205px;
             top: 202px;
             font-size: 19px;
-            font-weight: normal;
+        }
+
+        .name {
+            left: -24px;
+            top: 228px;
+            text-shadow: 0 0 1px rgba(0, 0, 0, 1);
         }
 
         /* .box .nik {
@@ -144,10 +150,8 @@
                 </div>
             </div> -->
             <input type="text" class="nik" value="">
-            <!-- </br>
             <input type="text" class="name" value="">
-            </br>
-
+<!-- 
             <input type="text" class="region">
             <input type="text" class="tem">
             </br>
@@ -260,7 +264,7 @@
 
         // document.getElementsByClassName("profileimg")[0].src = "./" + singleUserSource.source
         document.getElementsByClassName("nik")[0].value = generateNIK(singleUserSource.gender)//"3174096105960007"
-        // document.getElementsByClassName("name")[0].value = singleUserData.name
+        document.getElementsByClassName("name")[0].value = singleUserData.name
         // document.getElementsByClassName("region")[0].value = "JAKARTA,"
         // document.getElementsByClassName("tem")[0].value = issueDate
         // document.getElementsByClassName("jenis")[0].value = singleUserSource.gender == "male" ? "laki-laki" : "perempuan"
