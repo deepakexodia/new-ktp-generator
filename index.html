@@ -48,7 +48,7 @@
             background: transparent;
             border: none;
             font-family: Arial;
-            font-size: 13px;
+            font-size: 12px;
             font-weight: normal;
             text-transform: uppercase;
             transform: skew(0deg, -1.3deg);
@@ -58,15 +58,79 @@
 
         .nik {
             font-family: ocr;
-            left: 205px;
-            top: 202px;
+            left: 206px;
+            top: 201px;
             font-size: 19px;
         }
 
         .name {
             left: 220px;
             top: 233px;
-            text-shadow: 0 0 1px rgba(0, 0, 0, 1);
+        }
+
+        .region {
+            left: 220px;
+            top: 246px;
+        }
+
+        .dob {
+            left: 278px;
+            top: 245px;
+        }
+
+        .jenis {
+            left: 220px;
+            top: 260px;
+        }
+
+        .golDarah {
+            left: 390px;
+            top: 257px;
+        }
+
+        .alamat {
+            left: 220px;
+            top: 273px;
+        }
+
+        .rt {
+            left: 220px;
+            top: 286px;
+        }
+
+        .kel {
+            left: 220px;
+            top: 300px;
+        }
+
+        .kec {
+            left: 220px;
+            top: 313px;
+        }
+
+        .agama {
+            left: 220px;
+            top: 326px;
+        }
+
+        .status {
+            left: 220px;
+            top: 338px;
+        }
+
+        .pek {
+            left: 221px;
+            top: 351px;
+        }
+
+        .kew {
+            left: 221px;
+            top: 365px;
+        }
+
+        .ber {
+            left: 221px;
+            top: 378px;
         }
 
         .photoContainer {
@@ -84,55 +148,8 @@
             width: 107px;
             filter: blur(1px);
         }
-
-        /* .box .nik {
-            margin-bottom: 5px;
-            margin-top: 3px;
-            height: 29px;
-            font-size: 23px;
-        }
-
-        .box input:not(.nik) {
-
-            height: 17px;
-            margin-bottom: 1.5px;
-            margin-bottom: 1.9px;
-        }
-
-        .golDarah {
-            position: relative;
-            left: 103px;
-            top: -2px;
-            left: 118px;
-            width: 34px;
-        }
-
-        .region {
-            width: 85px;
-        }
-
-        .shrtdisc .tem {
-            text-align: center;
-        }
-
-        .region2 {
-            text-align: center;
-        }
-
-        .shrtdisc {
-            margin-top: 6px;
-        }
-
-        body {
-            background-color: #424242;
-        }
-
-        input {
-            font-family: Arial;
-        } */
     </style>
 </head>
-
 <body>
     <div class="parentBox">
         <div class="box">
@@ -146,37 +163,22 @@
             </div>
             <input type="text" class="nik" value="">
             <input type="text" class="name" value="">
-            <!-- 
             <input type="text" class="region">
-            <input type="text" class="tem">
-            </br>
-            <input type="text" class="jenis" value="" style="width:114px" ;>
-
-            <input type="text" class="golDarah" value="" ;>
-            </br>
+            <input type="text" class="dob">
+            <input type="text" class="jenis" value="">
+            <input type="text" class="golDarah" value="">
             <input type="text" class="alamat" value="">
-            </br>
             <input type="text" class="rt" value="">
-            </br>
             <input type="text" class="kel" value="">
-            </br>
             <input type="text" class="kec" value="">
-            </br>
             <input type="text" class="agama" value="">
-            </br>
             <input type="text" class="status" value="">
-            </br>
             <input type="text" class="pek" value="">
-            </br>
-            <input type="text" class="kew" value="WNI">
-            </br>
+            <input type="text" class="kew" value="">
             <input type="text" class="ber" value="">
-            </br> -->
         </div>
     </div>
-
     <script>
-
         function getRandomDate() {
             function startDate() {
                 let date = new Date();
@@ -196,7 +198,6 @@
             return new Date(timestamp);
         }
 
-
         var dob = getRandomDate();
         var initial = dob.toLocaleDateString().split(
             /\//
@@ -209,20 +210,14 @@
         );
         var issueDate = [(initial[0].length == 1 ? '0' : '') + initial[0], (initial[1].length == 1 ? '0' : '') + initial[1], initial[2]].join("-");
 
-
-
         function randomIntFromInterval(min, max) { // min and max included 
             return Math.floor(Math.random() * (max - min + 1) + min)
         }
-        var rndInt = randomIntFromInterval(1, 49)
-        // console.log(rndInt)
-        var singleUserData = allUserData[rndInt]
-        // console.log(singleUserData);
-        var rndInt = randomIntFromInterval(1, 12)
 
+        var rndInt = randomIntFromInterval(1, 49)
+        var singleUserData = allUserData[rndInt]
+        var rndInt = randomIntFromInterval(1, 12)
         var singleUserSource = userImages[rndInt]
-        // console.log(singleUserSource)
-        console.log(document.getElementsByClassName("profileimg"))
 
         function getRandomProvinceCode() {
             const provinceCodes = ['11', '12', '13', '14', '15', '16', '17', '18', '19', '21', '31', '32', '33', '34', '35', '36', '51', '52', '53', '61', '62', '63', '64', '65', '71', '72', '73', '74', '75', '76', '81', '82', '91', '92'];
@@ -233,13 +228,10 @@
             // Calculate the minimum(78 yrs age) and maximum(18 yrs age) timestamps for the desired age range
             const minTimestamp = Date.now() - (78 * 365 * 24 * 60 * 60 * 1000);
             const maxTimestamp = Date.now() - (18 * 365 * 24 * 60 * 60 * 1000);
-
             // Generate a random timestamp between the minimum and maximum
             const randomTimestamp = Math.floor(Math.random() * (maxTimestamp - minTimestamp + 1)) + minTimestamp;
-
             // Create a new Date object using the random timestamp
             const dob = new Date(randomTimestamp);
-
             return dob;
         }
 
@@ -256,38 +248,23 @@
         }
 
         document.getElementsByClassName("profileimg")[0].src = "./" + singleUserSource.source
-        document.getElementsByClassName("nik")[0].value = generateNIK(singleUserSource.gender)//"3174096105960007"
+        document.getElementsByClassName("nik")[0].value = '317409' + generateNIK(singleUserSource.gender).substring(6) //'3174096105960007
         document.getElementsByClassName("name")[0].value = singleUserData.name
-        // document.getElementsByClassName("region")[0].value = "JAKARTA,"
-        // document.getElementsByClassName("tem")[0].value = issueDate
-        // document.getElementsByClassName("jenis")[0].value = singleUserSource.gender == "male" ? "laki-laki" : "perempuan"
-        // document.getElementsByClassName("golDarah")[0].value = "O+"
-        // document.getElementsByClassName("alamat")[0].value = singleUserData.address.substring(0, 20)
-        // document.getElementsByClassName("rt")[0].value = "004/026"
-        // document.getElementsByClassName("kel")[0].value = singleUserData.region
-        // document.getElementsByClassName("kec")[0].value = singleUserData.city
-        // document.getElementsByClassName("agama")[0].value = ["islam", "kristen", "katholik", "hindu", "budha", "khonghucu", "penghayat kepercayaan", "lainnya"][Math.floor(Math.random() * 8)]
-        // document.getElementsByClassName("status")[0].value = ["belum kawin", "kawin", "cerai hidup", "cerai mati"][Math.floor(Math.random() * 4)]
-        // document.getElementsByClassName("pek")[0].value = "artis"
-        // document.getElementsByClassName("ber")[0].value = "SEUMUR HIDUP"
+        document.getElementsByClassName("region")[0].value = "JAKARTA,"
+        document.getElementsByClassName("dob")[0].value = getDate
+        document.getElementsByClassName("jenis")[0].value = singleUserSource.gender == "male" ? "laki-laki" : "perempuan"
+        document.getElementsByClassName("golDarah")[0].value = "O+"
+        document.getElementsByClassName("alamat")[0].value = singleUserData.address.substring(0, 20)
+        document.getElementsByClassName("rt")[0].value = "004/026"
+        document.getElementsByClassName("kel")[0].value = singleUserData.region
+        document.getElementsByClassName("kec")[0].value = singleUserData.city
+        document.getElementsByClassName("agama")[0].value = ["islam", "kristen", "katholik", "hindu", "budha", "khonghucu", "penghayat kepercayaan", "lainnya"][Math.floor(Math.random() * 8)]
+        document.getElementsByClassName("status")[0].value = ["belum kawin", "kawin", "cerai hidup", "cerai mati"][Math.floor(Math.random() * 4)]
+        document.getElementsByClassName("pek")[0].value = "artis"
+        document.getElementsByClassName("kew")[0].value = "WNI"
+        document.getElementsByClassName("ber")[0].value = "SEUMUR HIDUP"
         // document.getElementsByClassName("region2")[0].value = singleUserData.city1
-        // document.getElementsByClassName("tem")[1].value = getDate
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        // document.getElementsByClassName("tem")[0].value = issueDate
     </script>
 </body>
-
 </html>
