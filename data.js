@@ -2,7 +2,7 @@ var allUserData = [
 	{
 		name: "Ria Stephenson",
 		date: "04-07-2017",
-		address: "P.O. Box 947, 9548 Accumsan Rd.",
+		address: "PO Box 947, 9548 Accumsan Rd",
 		region: "South Sumatra",
 		city: "Serang",
 		city1: "Tanjung Pinang",
@@ -11,7 +11,7 @@ var allUserData = [
 	{
 		name: "Kelsey Vega",
 		date: "05-03-2019",
-		address: "7708 Tempus St.",
+		address: "7708 Tempus St",
 		region: "North Kalimantan",
 		city: "Surabaya",
 		city1: "Bima",
@@ -29,7 +29,7 @@ var allUserData = [
 	{
 		name: "Fuller Ramsey",
 		date: "03-07-2019",
-		address: "Ap #101-6760 Sodales St.",
+		address: "Ap 101-6760 Sodales St",
 		region: "Aceh",
 		city: "Sukabumi",
 		city1: "Palopo",
@@ -38,7 +38,7 @@ var allUserData = [
 	{
 		name: "Armando Castaneda",
 		date: "01-05-2018",
-		address: "P.O. Box 296, 9737 Justo Street",
+		address: "PO Box 296, 9737 Justo Street",
 		region: "West Sumatra",
 		city: "Dumai",
 		city1: "Parepare",
@@ -65,7 +65,7 @@ var allUserData = [
 	{
 		name: "Lilah Pearson",
 		date: "28-08-2020",
-		address: "Ap #561-596 Sit Ave",
+		address: "Ap 561-596 Sit Ave",
 		region: "Maluku",
 		city: "Jambi",
 		city1: "Palangka Raya",
@@ -83,7 +83,7 @@ var allUserData = [
 	{
 		name: "Cade Travis",
 		date: "01-01-2017",
-		address: "755-5976 Sed St.",
+		address: "755-5976 Sed St",
 		region: "Gorontalo",
 		city: "Denpasar",
 		city1: "Bengkulu",
@@ -92,7 +92,7 @@ var allUserData = [
 	{
 		name: "Oscar Mcmillan",
 		date: "20-11-2018",
-		address: "Ap #652-7636 Ut Avenue",
+		address: "Ap 652-7636 Ut Avenue",
 		region: "South Sumatra",
 		city: "Semarang",
 		city1: "Blitar",
@@ -101,7 +101,7 @@ var allUserData = [
 	{
 		name: "Geoffrey Travis",
 		date: "11-03-2019",
-		address: "785-2345 Vestibulum St.",
+		address: "785-2345 Vestibulum St",
 		region: "East Nusa Tenggara",
 		city: "Ternate",
 		city1: "Jakarta",
@@ -119,7 +119,7 @@ var allUserData = [
 	{
 		name: "Jack Sandoval",
 		date: "18-03-2021",
-		address: "P.O. Box 911, 6288 Diam Av.",
+		address: "PO Box 911, 6288 Diam Av",
 		region: "Papua",
 		city: "Kupang",
 		city1: "Tasikmalaya",
@@ -128,7 +128,7 @@ var allUserData = [
 	{
 		name: "Benedict Pickett",
 		date: "20-08-2016",
-		address: "Ap #604-4960 Commodo Rd.",
+		address: "Ap 604-4960 Commodo Rd",
 		region: "West Sumatra",
 		city: "Tanjung Pinang",
 		city1: "Banjarbaru",
@@ -137,7 +137,7 @@ var allUserData = [
 	{
 		name: "Tanisha Greene",
 		date: "13-06-2018",
-		address: "846-7609 Massa St.",
+		address: "846-7609 Massa St",
 		region: "East Java",
 		city: "Parepare",
 		city1: "Jayapura",
@@ -155,7 +155,7 @@ var allUserData = [
 	{
 		name: "Stuart Workman",
 		date: "08-02-2017",
-		address: "Ap #993-3153 Consequat Ave",
+		address: "Ap 993-3153 Consequat Ave",
 		region: "East Nusa Tenggara",
 		city: "Denpasar",
 		city1: "Ternate",
@@ -164,7 +164,7 @@ var allUserData = [
 	{
 		name: "Devin Riggs",
 		date: "06-07-2018",
-		address: "Ap #808-3069 Donec Av.",
+		address: "Ap 808-3069 Donec Av",
 		region: "West Kalimantan",
 		city: "Gorontalo",
 		city1: "Serang",
@@ -173,7 +173,7 @@ var allUserData = [
 	{
 		name: "Desiree Marsh",
 		date: "01-06-2018",
-		address: "P.O. Box 408, 8635 Sociis Rd.",
+		address: "PO Box 408, 8635 Sociis Rd",
 		region: "Riau",
 		city: "West Jakarta",
 		city1: "Jakarta",
@@ -191,7 +191,7 @@ var allUserData = [
 	{
 		name: "Fritz Frazier",
 		date: "26-08-2018",
-		address: "9884 Molestie St.",
+		address: "9884 Molestie St",
 		region: "West Java",
 		city: "Jayapura",
 		city1: "Cirebon",
@@ -209,7 +209,7 @@ var allUserData = [
 	{
 		name: "Jeanette Bernard",
 		date: "25-06-2018",
-		address: "Ap #805-9883 Lectus St.",
+		address: "Ap 805-9883 Lectus St",
 		region: "West Sulawesi",
 		city: "Sawahlunto",
 		city1: "Banjarmasin",
@@ -245,7 +245,7 @@ var allUserData = [
 	{
 		name: "Sonya Petersen",
 		date: "03-03-2019",
-		address: "864-4657 Eu Rd.",
+		address: "864-4657 Eu Rd",
 		region: "West Papua",
 		city: "Gunungsitoli",
 		city1: "Palangka Raya",
@@ -254,7 +254,7 @@ var allUserData = [
 	{
 		name: "Conan Pacheco",
 		date: "20-04-2017",
-		address: "P.O. Box 878, 7636 Mi. Av.",
+		address: "PO Box 878, 7636 Mi Av",
 		region: "East Nusa Tenggara",
 		city: "Mamuju",
 		city1: "Pontianak",
@@ -263,7 +263,7 @@ var allUserData = [
 	{
 		name: "Akeem White",
 		date: "30-12-2017",
-		address: "Ap #202-9047 Mauris, Ave",
+		address: "Ap 202-9047 Mauris, Ave",
 		region: "Papua",
 		city: "Gorontalo",
 		city1: "Yogyakarta",
@@ -272,7 +272,7 @@ var allUserData = [
 	{
 		name: "Stephen Bush",
 		date: "18-08-2016",
-		address: "Ap #860-5818 Sem. Street",
+		address: "Ap 860-5818 Sem Street",
 		region: "Southeast Sulawesi",
 		city: "Pontianak",
 		city1: "Palembang",
@@ -281,7 +281,7 @@ var allUserData = [
 	{
 		name: "Veda Chapman",
 		date: "22-11-2019",
-		address: "Ap #410-7285 Duis St.",
+		address: "Ap 410-7285 Duis St",
 		region: "Riau Islands",
 		city: "Makassar",
 		city1: "Metro",
@@ -290,7 +290,7 @@ var allUserData = [
 	{
 		name: "Clarke Fleming",
 		date: "26-02-2019",
-		address: "5508 Per St.",
+		address: "5508 Per St",
 		region: "South Kalimantan",
 		city: "Palangka Raya",
 		city1: "Tarakan",
@@ -308,7 +308,7 @@ var allUserData = [
 	{
 		name: "Rhona Ferguson",
 		date: "19-07-2019",
-		address: "Ap #657-9967 Maecenas Street",
+		address: "Ap 657-9967 Maecenas Street",
 		region: "North Sumatra",
 		city: "Samarinda",
 		city1: "Dumai",
@@ -317,7 +317,7 @@ var allUserData = [
 	{
 		name: "Lucius Morrow",
 		date: "16-11-2017",
-		address: "848-3453 Natoque Rd.",
+		address: "848-3453 Natoque Rd",
 		region: "Lampung",
 		city: "Tomohon",
 		city1: "Palangka Raya",
@@ -326,7 +326,7 @@ var allUserData = [
 	{
 		name: "Ingrid Aguirre",
 		date: "04-06-2017",
-		address: "Ap #776-4025 Neque. Avenue",
+		address: "Ap 776-4025 Neque Avenue",
 		region: "Papua",
 		city: "Banda Aceh",
 		city1: "Serang",
@@ -335,7 +335,7 @@ var allUserData = [
 	{
 		name: "Barclay Soto",
 		date: "24-09-2017",
-		address: "Ap #206-9747 Venenatis Road",
+		address: "Ap 206-9747 Venenatis Road",
 		region: "North Maluku",
 		city: "Manokwari",
 		city1: "Ambon",
@@ -353,7 +353,7 @@ var allUserData = [
 	{
 		name: "Channing Romero",
 		date: "15-03-2021",
-		address: "Ap #176-1391 Hendrerit. St.",
+		address: "Ap 176-1391 Hendrerit St",
 		region: "Gorontalo",
 		city: "Manokwari",
 		city1: "Yogyakarta",
@@ -362,7 +362,7 @@ var allUserData = [
 	{
 		name: "Xandra Jacobson",
 		date: "29-10-2020",
-		address: "318-7562 At, Av.",
+		address: "318-7562 At, Av",
 		region: "South Kalimantan",
 		city: "Pekanbaru",
 		city1: "Sawahlunto",
@@ -371,7 +371,7 @@ var allUserData = [
 	{
 		name: "Alana Goodwin",
 		date: "01-07-2019",
-		address: "311-9717 Aliquam Rd.",
+		address: "311-9717 Aliquam Rd",
 		region: "West Kalimantan",
 		city: "Bukittinggi",
 		city1: "Semarang",
@@ -389,7 +389,7 @@ var allUserData = [
 	{
 		name: "Kiona Burnett",
 		date: "15-01-2020",
-		address: "P.O. Box 522, 4031 Eget, Ave",
+		address: "PO Box 522, 4031 Eget, Ave",
 		region: "Special Capital Region of Jakarta",
 		city: "Serang",
 		city1: "Mamuju",
@@ -407,7 +407,7 @@ var allUserData = [
 	{
 		name: "Azalia Golden",
 		date: "16-09-2016",
-		address: "Ap #603-5798 Fusce Street",
+		address: "Ap 603-5798 Fusce Street",
 		region: "East Java",
 		city: "Pangkalpinang",
 		city1: "Sungai Penuh",
@@ -416,7 +416,7 @@ var allUserData = [
 	{
 		name: "Asher Christian",
 		date: "13-05-2021",
-		address: "9286 Nonummy Rd.",
+		address: "9286 Nonummy Rd",
 		region: "Lampung",
 		city: "Banda Aceh",
 		city1: "Tarakan",
@@ -425,7 +425,7 @@ var allUserData = [
 	{
 		name: "Melanie Cannon",
 		date: "22-09-2019",
-		address: "Ap #255-8882 Amet Ave",
+		address: "Ap 255-8882 Amet Ave",
 		region: "South Kalimantan",
 		city: "Tanjung Pinang",
 		city1: "Batu",
@@ -434,7 +434,7 @@ var allUserData = [
 	{
 		name: "Skyler Mcguire",
 		date: "16-09-2019",
-		address: "P.O. Box 441, 9962 Id, Rd.",
+		address: "PO Box 441, 9962 Id, Rd",
 		region: "Lampung",
 		city: "Tarakan",
 		city1: "Kendari",
@@ -443,7 +443,7 @@ var allUserData = [
 	{
 		name: "Quinn Conway",
 		date: "03-12-2017",
-		address: "P.O. Box 170, 6465 Elementum, St.",
+		address: "PO Box 170, 6465 Elementum, St",
 		region: "West Sulawesi",
 		city: "Serang",
 		city1: "Semarang",
@@ -452,7 +452,7 @@ var allUserData = [
 	{
 		name: "Blaze Watkins",
 		date: "08-10-2018",
-		address: "1625 Dolor. St.",
+		address: "1625 Dolor St",
 		region: "Central Sulawesi",
 		city: "Yogyakarta",
 		city1: "Semarang",
@@ -461,7 +461,7 @@ var allUserData = [
 	{
 		name: "Bree Abbott",
 		date: "27-08-2017",
-		address: "P.O. Box 128, 6575 Natoque Av.",
+		address: "PO Box 128, 6575 Natoque Av",
 		region: "East Kalimantan",
 		city: "Palangka Raya",
 		city1: "Kupang",
@@ -479,7 +479,7 @@ var allUserData = [
 	{
 		name: "Hashim Pope",
 		date: "30-10-2019",
-		address: "Ap #224-908 Risus. Av.",
+		address: "Ap 224-908 Risus Av",
 		region: "West Java",
 		city: "Jayapura",
 		city1: "Bukittinggi",
@@ -488,7 +488,7 @@ var allUserData = [
 	{
 		name: "Duncan Erickson",
 		date: "20-11-2019",
-		address: "P.O. Box 571, 377 Bibendum Street",
+		address: "PO Box 571, 377 Bibendum Street",
 		region: "West Sulawesi",
 		city: "Pontianak",
 		city1: "Ternate",
@@ -497,7 +497,7 @@ var allUserData = [
 	{
 		name: "Jerry Gonzalez",
 		date: "02-09-2018",
-		address: "1109 Ac St.",
+		address: "1109 Ac St",
 		region: "South Sumatra",
 		city: "Palu",
 		city1: "Manokwari",
@@ -506,7 +506,7 @@ var allUserData = [
 	{
 		name: "Inga Dillard",
 		date: "01-07-2017",
-		address: "168-769 Montes, Av.",
+		address: "168-769 Montes, Av",
 		region: "Gorontalo",
 		city: "Banjarbaru",
 		city1: "Bengkulu",
@@ -524,7 +524,7 @@ var allUserData = [
 	{
 		name: "Jarrod England",
 		date: "04-05-2020",
-		address: "549-522 Et, Av.",
+		address: "549-522 Et, Av",
 		region: "South Sumatra",
 		city: "Banjarmasin",
 		city1: "Tarakan",
@@ -533,7 +533,7 @@ var allUserData = [
 	{
 		name: "Shaeleigh Wilcox",
 		date: "13-11-2019",
-		address: "Ap #250-4604 Cras Avenue",
+		address: "Ap 250-4604 Cras Avenue",
 		region: "Bengkulu",
 		city: "Pontianak",
 		city1: "Central Jakarta",
@@ -542,7 +542,7 @@ var allUserData = [
 	{
 		name: "Kellie Frost",
 		date: "17-02-2019",
-		address: "332-1335 Lorem Rd.",
+		address: "332-1335 Lorem Rd",
 		region: "Riau Islands",
 		city: "Kendari",
 		city1: "Palangka Raya",
@@ -560,7 +560,7 @@ var allUserData = [
 	{
 		name: "Stephanie Hughes",
 		date: "20-12-2016",
-		address: "929-6703 Magna Rd.",
+		address: "929-6703 Magna Rd",
 		region: "Papua",
 		city: "Payakumbuh",
 		city1: "Pangkalpinang",
@@ -569,7 +569,7 @@ var allUserData = [
 	{
 		name: "Joy O'Neill",
 		date: "20-09-2017",
-		address: "P.O. Box 936, 5032 Donec Rd.",
+		address: "PO Box 936, 5032 Donec Rd",
 		region: "Bengkulu",
 		city: "Padang Panjang",
 		city1: "Tanjungbalai",
@@ -578,7 +578,7 @@ var allUserData = [
 	{
 		name: "Rhea Ferrell",
 		date: "17-01-2021",
-		address: "1681 Dolor Av.",
+		address: "1681 Dolor Av",
 		region: "Papua",
 		city: "Dumai",
 		city1: "Mamuju",
@@ -587,7 +587,7 @@ var allUserData = [
 	{
 		name: "Xandra Black",
 		date: "28-04-2017",
-		address: "5096 Aliquet, Rd.",
+		address: "5096 Aliquet, Rd",
 		region: "West Kalimantan",
 		city: "Yogyakarta",
 		city1: "Gorontalo",
@@ -596,7 +596,7 @@ var allUserData = [
 	{
 		name: "Mia Farley",
 		date: "05-06-2018",
-		address: "Ap #440-2044 Velit Street",
+		address: "Ap 440-2044 Velit Street",
 		region: "Bengkulu",
 		city: "Manokwari",
 		city1: "Balikpapan",
@@ -605,7 +605,7 @@ var allUserData = [
 	{
 		name: "Noble Deleon",
 		date: "05-09-2016",
-		address: "592-7687 Venenatis Rd.",
+		address: "592-7687 Venenatis Rd",
 		region: "West Java",
 		city: "Semarang",
 		city1: "Mojokerto",
@@ -614,7 +614,7 @@ var allUserData = [
 	{
 		name: "Angelica Sheppard",
 		date: "21-06-2019",
-		address: "Ap #370-1518 Nisl Road",
+		address: "Ap 370-1518 Nisl Road",
 		region: "North Maluku",
 		city: "Bima",
 		city1: "Denpasar",
@@ -623,7 +623,7 @@ var allUserData = [
 	{
 		name: "Jeanette Church",
 		date: "14-09-2016",
-		address: "Ap #767-7622 Est Street",
+		address: "Ap 767-7622 Est Street",
 		region: "Gorontalo",
 		city: "Baubau",
 		city1: "Sungai Penuh",
@@ -650,7 +650,7 @@ var allUserData = [
 	{
 		name: "Uma Davidson",
 		date: "02-10-2017",
-		address: "740-2289 Sit St.",
+		address: "740-2289 Sit St",
 		region: "Riau Islands",
 		city: "Manokwari",
 		city1: "Mataram",
@@ -659,7 +659,7 @@ var allUserData = [
 	{
 		name: "Odette Mccullough",
 		date: "14-11-2016",
-		address: "P.O. Box 352, 157 Aptent Rd.",
+		address: "PO Box 352, 157 Aptent Rd",
 		region: "Banten",
 		city: "Pangkalpinang",
 		city1: "Palembang",
@@ -668,7 +668,7 @@ var allUserData = [
 	{
 		name: "Hayden Jenkins",
 		date: "31-08-2016",
-		address: "Ap #291-713 Euismod Rd.",
+		address: "Ap 291-713 Euismod Rd",
 		region: "West Kalimantan",
 		city: "Balikpapan",
 		city1: "Kupang",
@@ -677,7 +677,7 @@ var allUserData = [
 	{
 		name: "Basil Nash",
 		date: "27-12-2017",
-		address: "P.O. Box 256, 6032 Est Road",
+		address: "PO Box 256, 6032 Est Road",
 		region: "Banten",
 		city: "Mamuju",
 		city1: "Kupang",
@@ -686,7 +686,7 @@ var allUserData = [
 	{
 		name: "Jamal Hart",
 		date: "23-05-2018",
-		address: "Ap #825-6746 Vivamus Rd.",
+		address: "Ap 825-6746 Vivamus Rd",
 		region: "Riau",
 		city: "Denpasar",
 		city1: "Tarakan",
@@ -695,7 +695,7 @@ var allUserData = [
 	{
 		name: "Kasper Hall",
 		date: "16-02-2018",
-		address: "Ap #225-9692 Suspendisse Av.",
+		address: "Ap 225-9692 Suspendisse Av",
 		region: "Gorontalo",
 		city: "Metro",
 		city1: "Tanjung Pinang",
@@ -704,7 +704,7 @@ var allUserData = [
 	{
 		name: "Abdul Maynard",
 		date: "08-04-2018",
-		address: "P.O. Box 142, 6779 Nec Street",
+		address: "PO Box 142, 6779 Nec Street",
 		region: "Bengkulu",
 		city: "Mamuju",
 		city1: "Jayapura",
@@ -713,7 +713,7 @@ var allUserData = [
 	{
 		name: "Ina Buck",
 		date: "07-01-2021",
-		address: "P.O. Box 730, 7118 Scelerisque Road",
+		address: "PO Box 730, 7118 Scelerisque Road",
 		region: "Jambi",
 		city: "Serang",
 		city1: "Kupang",
@@ -731,7 +731,7 @@ var allUserData = [
 	{
 		name: "Len Ayers",
 		date: "15-10-2019",
-		address: "914 Nunc Rd.",
+		address: "914 Nunc Rd",
 		region: "West Sulawesi",
 		city: "Jayapura",
 		city1: "West Jakarta",
@@ -740,7 +740,7 @@ var allUserData = [
 	{
 		name: "Melodie Ruiz",
 		date: "26-05-2020",
-		address: "9563 Nec St.",
+		address: "9563 Nec St",
 		region: "Bengkulu",
 		city: "Yogyakarta",
 		city1: "Palu",
@@ -749,7 +749,7 @@ var allUserData = [
 	{
 		name: "Martena Bailey",
 		date: "11-10-2016",
-		address: "P.O. Box 534, 8220 Nunc Avenue",
+		address: "PO Box 534, 8220 Nunc Avenue",
 		region: "East Nusa Tenggara",
 		city: "Mamuju",
 		city1: "Banda Aceh",
@@ -767,7 +767,7 @@ var allUserData = [
 	{
 		name: "Xenos Ferguson",
 		date: "02-09-2019",
-		address: "P.O. Box 892, 8505 Donec Rd.",
+		address: "PO Box 892, 8505 Donec Rd",
 		region: "West Papua",
 		city: "Bandung",
 		city1: "Tanjung Pinang",
@@ -776,7 +776,7 @@ var allUserData = [
 	{
 		name: "Miriam Barton",
 		date: "06-12-2019",
-		address: "671-4791 Et St.",
+		address: "671-4791 Et St",
 		region: "Jambi",
 		city: "Pontianak",
 		city1: "Ternate",
@@ -794,7 +794,7 @@ var allUserData = [
 	{
 		name: "Levi Briggs",
 		date: "11-09-2017",
-		address: "P.O. Box 893, 7460 Dolor Road",
+		address: "PO Box 893, 7460 Dolor Road",
 		region: "North Maluku",
 		city: "Tomohon",
 		city1: "Bitung",
@@ -803,7 +803,7 @@ var allUserData = [
 	{
 		name: "Adam Juarez",
 		date: "14-12-2020",
-		address: "Ap #947-4572 Torquent Rd.",
+		address: "Ap 947-4572 Torquent Rd",
 		region: "Bengkulu",
 		city: "Banjarbaru",
 		city1: "Pangkalpinang",
@@ -812,7 +812,7 @@ var allUserData = [
 	{
 		name: "Channing Velez",
 		date: "20-06-2020",
-		address: "718-5571 Adipiscing Rd.",
+		address: "718-5571 Adipiscing Rd",
 		region: "Special Region of Yogyakarta",
 		city: "Sawahlunto",
 		city1: "Jayapura",
@@ -821,7 +821,7 @@ var allUserData = [
 	{
 		name: "Flynn Mcknight",
 		date: "28-10-2017",
-		address: "Ap #704-4271 Non St.",
+		address: "Ap 704-4271 Non St",
 		region: "North Kalimantan",
 		city: "Tarakan",
 		city1: "Padang Sidempuan",
@@ -830,7 +830,7 @@ var allUserData = [
 	{
 		name: "Stephanie Vega",
 		date: "12-08-2018",
-		address: "Ap #458-7509 Euismod Street",
+		address: "Ap 458-7509 Euismod Street",
 		region: "Papua",
 		city: "Banjarmasin",
 		city1: "Palangka Raya",
@@ -839,7 +839,7 @@ var allUserData = [
 	{
 		name: "Helen Maxwell",
 		date: "17-04-2018",
-		address: "Ap #100-7681 Scelerisque, Road",
+		address: "Ap 100-7681 Scelerisque, Road",
 		region: "East Kalimantan",
 		city: "Palu",
 		city1: "Denpasar",
@@ -848,7 +848,7 @@ var allUserData = [
 	{
 		name: "Aquila Reeves",
 		date: "29-07-2018",
-		address: "P.O. Box 340, 7417 Mauris Av.",
+		address: "PO Box 340, 7417 Mauris Av",
 		region: "Papua",
 		city: "Kupang",
 		city1: "Kendari",
@@ -857,7 +857,7 @@ var allUserData = [
 	{
 		name: "MacKenzie Sawyer",
 		date: "08-01-2021",
-		address: "P.O. Box 886, 2699 Magna Avenue",
+		address: "PO Box 886, 2699 Magna Avenue",
 		region: "Gorontalo",
 		city: "Palopo",
 		city1: "Tarakan",
@@ -866,7 +866,7 @@ var allUserData = [
 	{
 		name: "Mufutau Russell",
 		date: "27-12-2019",
-		address: "955-6529 Condimentum St.",
+		address: "955-6529 Condimentum St",
 		region: "West Papua",
 		city: "Tidore",
 		city1: "Kupang",
@@ -875,7 +875,7 @@ var allUserData = [
 	{
 		name: "Carissa Farmer",
 		date: "19-05-2021",
-		address: "992-4470 Pede Rd.",
+		address: "992-4470 Pede Rd",
 		region: "West Sumatra",
 		city: "Mataram",
 		city1: "Depok",
@@ -911,7 +911,7 @@ var allUserData = [
 	{
 		name: "Kane Taylor",
 		date: "19-04-2020",
-		address: "Ap #161-2206 Erat St.",
+		address: "Ap 161-2206 Erat St",
 		region: "Riau",
 		city: "Tebing Tinggi",
 		city1: "Central Jakarta",
@@ -920,7 +920,7 @@ var allUserData = [
 	{
 		name: "Ria Norton",
 		date: "24-07-2018",
-		address: "5214 Aenean Rd.",
+		address: "5214 Aenean Rd",
 		region: "East Kalimantan",
 		city: "Palembang",
 		city1: "Mamuju",
@@ -929,7 +929,7 @@ var allUserData = [
 	{
 		name: "Connor Skinner",
 		date: "12-09-2019",
-		address: "Ap #884-6880 Morbi Ave",
+		address: "Ap 884-6880 Morbi Ave",
 		region: "North Sumatra",
 		city: "Denpasar",
 		city1: "Bitung",
@@ -938,7 +938,7 @@ var allUserData = [
 	{
 		name: "Emery Britt",
 		date: "06-02-2019",
-		address: "4479 Nullam St.",
+		address: "4479 Nullam St",
 		region: "North Sumatra",
 		city: "Malang",
 		city1: "Serang",
@@ -947,7 +947,7 @@ var allUserData = [
 	{
 		name: "Chandler Young",
 		date: "11-12-2016",
-		address: "Ap #590-1992 Mauris Avenue",
+		address: "Ap 590-1992 Mauris Avenue",
 		region: "North Maluku",
 		city: "Baubau",
 		city1: "Palu",
@@ -956,7 +956,7 @@ var allUserData = [
 	{
 		name: "Price Hanson",
 		date: "11-03-2019",
-		address: "Ap #623-4092 Enim. Ave",
+		address: "Ap 623-4092 Enim Ave",
 		region: "North Sumatra",
 		city: "Metro",
 		city1: "Serang",
@@ -965,7 +965,7 @@ var allUserData = [
 	{
 		name: "Priscilla Mccullough",
 		date: "22-07-2018",
-		address: "Ap #421-4601 Sed Av.",
+		address: "Ap 421-4601 Sed Av",
 		region: "Riau Islands",
 		city: "Palembang",
 		city1: "Serang",
@@ -974,7 +974,7 @@ var allUserData = [
 	{
 		name: "Oscar Perry",
 		date: "05-08-2019",
-		address: "P.O. Box 132, 289 Accumsan Rd.",
+		address: "PO Box 132, 289 Accumsan Rd",
 		region: "South Sulawesi",
 		city: "Surabaya",
 		city1: "Ternate",
@@ -983,7 +983,7 @@ var allUserData = [
 	{
 		name: "Ralph Sloan",
 		date: "21-05-2020",
-		address: "Ap #373-1083 Enim Av.",
+		address: "Ap 373-1083 Enim Av",
 		region: "Bali",
 		city: "Dumai",
 		city1: "Singkawang",
@@ -1001,7 +1001,7 @@ var allUserData = [
 	{
 		name: "Harding Ayala",
 		date: "20-03-2017",
-		address: "Ap #471-5746 Eget Street",
+		address: "Ap 471-5746 Eget Street",
 		region: "West Sumatra",
 		city: "Palembang",
 		city1: "Pangkalpinang",
@@ -1010,7 +1010,7 @@ var allUserData = [
 	{
 		name: "Vielka Hubbard",
 		date: "08-03-2021",
-		address: "P.O. Box 382, 2099 Massa. St.",
+		address: "PO Box 382, 2099 Massa St",
 		region: "West Sumatra",
 		city: "Bitung",
 		city1: "Bandar Lampung",
@@ -1037,7 +1037,7 @@ var allUserData = [
 	{
 		name: "Michael Eaton",
 		date: "15-09-2019",
-		address: "P.O. Box 378, 5454 At, Avenue",
+		address: "PO Box 378, 5454 At, Avenue",
 		region: "Southeast Sulawesi",
 		city: "Pangkalpinang",
 		city1: "Semarang",
@@ -1055,7 +1055,7 @@ var allUserData = [
 	{
 		name: "Garth Munoz",
 		date: "09-12-2018",
-		address: "Ap #210-5594 Sodales Ave",
+		address: "Ap 210-5594 Sodales Ave",
 		region: "West Kalimantan",
 		city: "Palangka Raya",
 		city1: "Dumai",
@@ -1064,7 +1064,7 @@ var allUserData = [
 	{
 		name: "Unity Hensley",
 		date: "30-08-2019",
-		address: "263-4241 Magnis Av.",
+		address: "263-4241 Magnis Av",
 		region: "Riau Islands",
 		city: "Pangkalpinang",
 		city1: "Tanjung Pinang",
@@ -1073,7 +1073,7 @@ var allUserData = [
 	{
 		name: "Sade Lee",
 		date: "10-05-2019",
-		address: "135-4111 Fringilla. Road",
+		address: "135-4111 Fringilla Road",
 		region: "South Kalimantan",
 		city: "Padang Panjang",
 		city1: "Baubau",
@@ -1091,7 +1091,7 @@ var allUserData = [
 	{
 		name: "Fritz Lawrence",
 		date: "01-09-2019",
-		address: "2602 Malesuada Av.",
+		address: "2602 Malesuada Av",
 		region: "Central Sulawesi",
 		city: "Batu",
 		city1: "Pangkalpinang",
@@ -1100,7 +1100,7 @@ var allUserData = [
 	{
 		name: "Galvin Lowe",
 		date: "21-04-2018",
-		address: "Ap #269-6544 Ante Rd.",
+		address: "Ap 269-6544 Ante Rd",
 		region: "Bengkulu",
 		city: "Mamuju",
 		city1: "Mataram",
@@ -1109,7 +1109,7 @@ var allUserData = [
 	{
 		name: "Aretha Harrell",
 		date: "16-10-2019",
-		address: "P.O. Box 822, 2822 Nibh. Ave",
+		address: "PO Box 822, 2822 Nibh Ave",
 		region: "Riau Islands",
 		city: "Denpasar",
 		city1: "Samarinda",
@@ -1118,7 +1118,7 @@ var allUserData = [
 	{
 		name: "Fiona Carpenter",
 		date: "11-08-2021",
-		address: "138-2358 Tempus Rd.",
+		address: "138-2358 Tempus Rd",
 		region: "West Sumatra",
 		city: "Mataram",
 		city1: "Ambon",
@@ -1127,7 +1127,7 @@ var allUserData = [
 	{
 		name: "Hadley Irwin",
 		date: "25-12-2016",
-		address: "Ap #301-4551 Sem. St.",
+		address: "Ap 301-4551 Sem St",
 		region: "West Java",
 		city: "Metro",
 		city1: "Makassar",
@@ -1136,7 +1136,7 @@ var allUserData = [
 	{
 		name: "Cathleen Lara",
 		date: "13-06-2021",
-		address: "532-3506 Auctor St.",
+		address: "532-3506 Auctor St",
 		region: "East Java",
 		city: "Jayapura",
 		city1: "Metro",
@@ -1145,7 +1145,7 @@ var allUserData = [
 	{
 		name: "Amos Guy",
 		date: "18-09-2019",
-		address: "P.O. Box 178, 2955 Non St.",
+		address: "PO Box 178, 2955 Non St",
 		region: "South Kalimantan",
 		city: "Sungai Penuh",
 		city1: "Bogor",
@@ -1163,7 +1163,7 @@ var allUserData = [
 	{
 		name: "September Byrd",
 		date: "12-08-2019",
-		address: "P.O. Box 786, 671 Nec St.",
+		address: "PO Box 786, 671 Nec St",
 		region: "Special Capital Region of Jakarta",
 		city: "Manokwari",
 		city1: "Pangkalpinang",
@@ -1172,7 +1172,7 @@ var allUserData = [
 	{
 		name: "Baker Whitfield",
 		date: "29-10-2019",
-		address: "P.O. Box 593, 2097 Ac Avenue",
+		address: "PO Box 593, 2097 Ac Avenue",
 		region: "Bangka Belitung Islands",
 		city: "Tual",
 		city1: "Tual",
@@ -1181,7 +1181,7 @@ var allUserData = [
 	{
 		name: "Nigel Myers",
 		date: "07-03-2018",
-		address: "442-8970 Ligula. St.",
+		address: "442-8970 Ligula St",
 		region: "Gorontalo",
 		city: "Mataram",
 		city1: "Solok",
@@ -1190,7 +1190,7 @@ var allUserData = [
 	{
 		name: "Vivien Vinson",
 		date: "20-05-2021",
-		address: "226-4758 Proin St.",
+		address: "226-4758 Proin St",
 		region: "South Kalimantan",
 		city: "North Jakarta",
 		city1: "Pangkalpinang",
@@ -1199,7 +1199,7 @@ var allUserData = [
 	{
 		name: "Unity Barron",
 		date: "23-06-2019",
-		address: "376-1317 Mi, St.",
+		address: "376-1317 Mi, St",
 		region: "East Java",
 		city: "Jayapura",
 		city1: "Central Jakarta",
@@ -1217,7 +1217,7 @@ var allUserData = [
 	{
 		name: "Amery Cobb",
 		date: "22-09-2019",
-		address: "Ap #563-7178 Arcu Street",
+		address: "Ap 563-7178 Arcu Street",
 		region: "Aceh",
 		city: "Pariaman",
 		city1: "Singkawang",
@@ -1244,7 +1244,7 @@ var allUserData = [
 	{
 		name: "Skyler Hughes",
 		date: "10-01-2019",
-		address: "Ap #791-6760 Mollis St.",
+		address: "Ap 791-6760 Mollis St",
 		region: "Bali",
 		city: "Dumai",
 		city1: "Palangka Raya",
@@ -1253,7 +1253,7 @@ var allUserData = [
 	{
 		name: "Hannah Rollins",
 		date: "24-03-2018",
-		address: "Ap #260-5071 Nec Rd.",
+		address: "Ap 260-5071 Nec Rd",
 		region: "North Sulawesi",
 		city: "Bontang",
 		city1: "Ternate",
@@ -1262,7 +1262,7 @@ var allUserData = [
 	{
 		name: "Aladdin Curtis",
 		date: "27-05-2018",
-		address: "325-9620 Mi. Avenue",
+		address: "325-9620 Mi Avenue",
 		region: "West Sumatra",
 		city: "Mataram",
 		city1: "Banjarmasin",
@@ -1271,7 +1271,7 @@ var allUserData = [
 	{
 		name: "Octavia Murphy",
 		date: "17-08-2020",
-		address: "674-506 Nulla. Road",
+		address: "674-506 Nulla Road",
 		region: "Jambi",
 		city: "Kendari",
 		city1: "Tanjung Pinang",
@@ -1280,7 +1280,7 @@ var allUserData = [
 	{
 		name: "Barry Stafford",
 		date: "18-06-2018",
-		address: "Ap #902-6973 In, St.",
+		address: "Ap 902-6973 In, St",
 		region: "Banten",
 		city: "Sungai Penuh",
 		city1: "Pekanbaru",
@@ -1289,7 +1289,7 @@ var allUserData = [
 	{
 		name: "Kelsey Dunlap",
 		date: "25-12-2019",
-		address: "P.O. Box 682, 8442 In St.",
+		address: "PO Box 682, 8442 In St",
 		region: "Riau",
 		city: "Tasikmalaya",
 		city1: "Bima",
@@ -1298,7 +1298,7 @@ var allUserData = [
 	{
 		name: "Demetrius Noel",
 		date: "06-05-2018",
-		address: "Ap #538-8673 Commodo Rd.",
+		address: "Ap 538-8673 Commodo Rd",
 		region: "Maluku",
 		city: "Sungai Penuh",
 		city1: "Mamuju",
@@ -1307,7 +1307,7 @@ var allUserData = [
 	{
 		name: "Myles Donaldson",
 		date: "18-01-2020",
-		address: "Ap #464-8048 In St.",
+		address: "Ap 464-8048 In St",
 		region: "Central Kalimantan",
 		city: "Jayapura",
 		city1: "Serang",
@@ -1316,7 +1316,7 @@ var allUserData = [
 	{
 		name: "Angela Chen",
 		date: "09-11-2018",
-		address: "P.O. Box 687, 3914 Luctus Street",
+		address: "PO Box 687, 3914 Luctus Street",
 		region: "North Sulawesi",
 		city: "Jayapura",
 		city1: "Mojokerto",
@@ -1325,7 +1325,7 @@ var allUserData = [
 	{
 		name: "Kirestin Vinson",
 		date: "05-02-2019",
-		address: "Ap #808-1789 Sollicitudin St.",
+		address: "Ap 808-1789 Sollicitudin St",
 		region: "North Kalimantan",
 		city: "Tebing Tinggi",
 		city1: "Gorontalo",
@@ -1334,7 +1334,7 @@ var allUserData = [
 	{
 		name: "Kelsey Bell",
 		date: "13-04-2019",
-		address: "Ap #202-7906 Dolor, Street",
+		address: "Ap 202-7906 Dolor, Street",
 		region: "East Java",
 		city: "Banda Aceh",
 		city1: "East Jakarta",
@@ -1343,7 +1343,7 @@ var allUserData = [
 	{
 		name: "Anthony Shields",
 		date: "04-09-2017",
-		address: "695-2822 Consequat St.",
+		address: "695-2822 Consequat St",
 		region: "Bangka Belitung Islands",
 		city: "Yogyakarta",
 		city1: "South Jakarta",
@@ -1352,7 +1352,7 @@ var allUserData = [
 	{
 		name: "Cullen Ashley",
 		date: "11-12-2016",
-		address: "P.O. Box 916, 5705 Nec St.",
+		address: "PO Box 916, 5705 Nec St",
 		region: "West Papua",
 		city: "Serang",
 		city1: "Ambon",
@@ -1361,7 +1361,7 @@ var allUserData = [
 	{
 		name: "Skyler Avila",
 		date: "08-07-2020",
-		address: "P.O. Box 241, 3754 Mi, Rd.",
+		address: "PO Box 241, 3754 Mi, Rd",
 		region: "North Maluku",
 		city: "Tidore",
 		city1: "Denpasar",
@@ -1370,7 +1370,7 @@ var allUserData = [
 	{
 		name: "Kylee Baird",
 		date: "12-01-2017",
-		address: "Ap #268-3787 Cras Rd.",
+		address: "Ap 268-3787 Cras Rd",
 		region: "West Nusa Tenggara",
 		city: "Ternate",
 		city1: "Tarakan",
@@ -1379,7 +1379,7 @@ var allUserData = [
 	{
 		name: "Yael Fulton",
 		date: "04-06-2021",
-		address: "374-6455 Et, Rd.",
+		address: "374-6455 Et, Rd",
 		region: "Jambi",
 		city: "Tarakan",
 		city1: "Parepare",
@@ -1397,7 +1397,7 @@ var allUserData = [
 	{
 		name: "Cole Tate",
 		date: "09-06-2020",
-		address: "Ap #499-6383 Dictum Ave",
+		address: "Ap 499-6383 Dictum Ave",
 		region: "West Kalimantan",
 		city: "Denpasar",
 		city1: "Binjai",
@@ -1415,7 +1415,7 @@ var allUserData = [
 	{
 		name: "Devin Johns",
 		date: "11-11-2016",
-		address: "Ap #634-138 Orci, St.",
+		address: "Ap 634-138 Orci, St",
 		region: "East Kalimantan",
 		city: "Palangka Raya",
 		city1: "Bima",
@@ -1433,7 +1433,7 @@ var allUserData = [
 	{
 		name: "Sylvester Brooks",
 		date: "04-12-2017",
-		address: "P.O. Box 514, 8337 Hymenaeos. Rd.",
+		address: "PO Box 514, 8337 Hymenaeos Rd",
 		region: "Central Sulawesi",
 		city: "Tanjung Pinang",
 		city1: "Banjarmasin",
@@ -1442,7 +1442,7 @@ var allUserData = [
 	{
 		name: "Abbot Grimes",
 		date: "08-02-2021",
-		address: "7566 Tristique Rd.",
+		address: "7566 Tristique Rd",
 		region: "East Java",
 		city: "Bandung",
 		city1: "Semarang",
@@ -1451,7 +1451,7 @@ var allUserData = [
 	{
 		name: "Arsenio Sparks",
 		date: "23-11-2016",
-		address: "P.O. Box 466, 6866 Suscipit Rd.",
+		address: "PO Box 466, 6866 Suscipit Rd",
 		region: "Bangka Belitung Islands",
 		city: "Mamuju",
 		city1: "Tual",
@@ -1460,7 +1460,7 @@ var allUserData = [
 	{
 		name: "Vivien Lambert",
 		date: "24-10-2018",
-		address: "335-3045 Sit St.",
+		address: "335-3045 Sit St",
 		region: "North Sumatra",
 		city: "Serang",
 		city1: "Singkawang",
@@ -1469,7 +1469,7 @@ var allUserData = [
 	{
 		name: "Nero Fulton",
 		date: "15-01-2018",
-		address: "5654 Sed, Rd.",
+		address: "5654 Sed, Rd",
 		region: "East Java",
 		city: "Kendari",
 		city1: "Sawahlunto",
@@ -1478,7 +1478,7 @@ var allUserData = [
 	{
 		name: "Anthony Clements",
 		date: "08-07-2020",
-		address: "849-4220 Auctor St.",
+		address: "849-4220 Auctor St",
 		region: "Special Region of Yogyakarta",
 		city: "Samarinda",
 		city1: "Palembang",
@@ -1487,7 +1487,7 @@ var allUserData = [
 	{
 		name: "Gemma Webb",
 		date: "10-12-2017",
-		address: "Ap #294-2665 Elit Road",
+		address: "Ap 294-2665 Elit Road",
 		region: "Papua",
 		city: "Palu",
 		city1: "Ternate",
@@ -1496,7 +1496,7 @@ var allUserData = [
 	{
 		name: "Lara Vargas",
 		date: "02-02-2017",
-		address: "162-7617 A St.",
+		address: "162-7617 A St",
 		region: "North Sumatra",
 		city: "Cimahi",
 		city1: "Sungai Penuh",
@@ -1505,7 +1505,7 @@ var allUserData = [
 	{
 		name: "Sydney Thompson",
 		date: "12-11-2020",
-		address: "Ap #182-987 Nam St.",
+		address: "Ap 182-987 Nam St",
 		region: "Papua",
 		city: "Tarakan",
 		city1: "Sungai Penuh",
@@ -1523,7 +1523,7 @@ var allUserData = [
 	{
 		name: "Teagan Keith",
 		date: "21-10-2019",
-		address: "145-4911 Quisque Rd.",
+		address: "145-4911 Quisque Rd",
 		region: "Riau",
 		city: "Yogyakarta",
 		city1: "Padang Sidempuan",
@@ -1532,7 +1532,7 @@ var allUserData = [
 	{
 		name: "Oren Palmer",
 		date: "26-04-2018",
-		address: "Ap #857-2572 Placerat. Av.",
+		address: "Ap 857-2572 Placerat Av",
 		region: "Bengkulu",
 		city: "Bukittinggi",
 		city1: "Semarang",
@@ -1550,7 +1550,7 @@ var allUserData = [
 	{
 		name: "Angela Herman",
 		date: "31-03-2020",
-		address: "Ap #863-5057 Malesuada Road",
+		address: "Ap 863-5057 Malesuada Road",
 		region: "Central Java",
 		city: "Manokwari",
 		city1: "Pontianak",
@@ -1559,7 +1559,7 @@ var allUserData = [
 	{
 		name: "Hadley Leon",
 		date: "26-06-2021",
-		address: "Ap #574-1566 Aliquet Avenue",
+		address: "Ap 574-1566 Aliquet Avenue",
 		region: "East Nusa Tenggara",
 		city: "Bengkulu",
 		city1: "Sukabumi",
@@ -1568,7 +1568,7 @@ var allUserData = [
 	{
 		name: "Chantale Evans",
 		date: "08-02-2021",
-		address: "395-3747 Etiam St.",
+		address: "395-3747 Etiam St",
 		region: "Special Capital Region of Jakarta",
 		city: "Payakumbuh",
 		city1: "Pangkalpinang",
@@ -1577,7 +1577,7 @@ var allUserData = [
 	{
 		name: "Lewis Rose",
 		date: "07-11-2017",
-		address: "Ap #915-1671 Nec Street",
+		address: "Ap 915-1671 Nec Street",
 		region: "South Sulawesi",
 		city: "Tarakan",
 		city1: "Tarakan",
@@ -1586,7 +1586,7 @@ var allUserData = [
 	{
 		name: "Veda Conner",
 		date: "05-05-2018",
-		address: "Ap #299-7985 Pede, Road",
+		address: "Ap 299-7985 Pede, Road",
 		region: "North Kalimantan",
 		city: "Banjarbaru",
 		city1: "Manokwari",
@@ -1595,7 +1595,7 @@ var allUserData = [
 	{
 		name: "Leonard Solomon",
 		date: "05-12-2018",
-		address: "846-3149 Inceptos Rd.",
+		address: "846-3149 Inceptos Rd",
 		region: "West Sumatra",
 		city: "Mamuju",
 		city1: "Mamuju",
@@ -1604,7 +1604,7 @@ var allUserData = [
 	{
 		name: "Whilemina Becker",
 		date: "07-03-2018",
-		address: "P.O. Box 622, 5472 Mauris Av.",
+		address: "PO Box 622, 5472 Mauris Av",
 		region: "West Sumatra",
 		city: "Palembang",
 		city1: "Manokwari",
@@ -1613,7 +1613,7 @@ var allUserData = [
 	{
 		name: "Zeph Woods",
 		date: "27-12-2017",
-		address: "Ap #389-1363 Ut, Av.",
+		address: "Ap 389-1363 Ut, Av",
 		region: "South Sulawesi",
 		city: "Yogyakarta",
 		city1: "Semarang",
@@ -1622,7 +1622,7 @@ var allUserData = [
 	{
 		name: "Jayme Hall",
 		date: "01-03-2020",
-		address: "Ap #810-875 Magnis Road",
+		address: "Ap 810-875 Magnis Road",
 		region: "West Sulawesi",
 		city: "Kotamobagu",
 		city1: "Kendari",
@@ -1631,7 +1631,7 @@ var allUserData = [
 	{
 		name: "Vaughan Leach",
 		date: "04-07-2019",
-		address: "595-9505 Aenean Av.",
+		address: "595-9505 Aenean Av",
 		region: "West Kalimantan",
 		city: "Ternate",
 		city1: "Palangka Raya",
@@ -1640,7 +1640,7 @@ var allUserData = [
 	{
 		name: "Joelle Oneil",
 		date: "04-02-2021",
-		address: "Ap #608-9357 Bibendum. Road",
+		address: "Ap 608-9357 Bibendum Road",
 		region: "West Sumatra",
 		city: "Mamuju",
 		city1: "Tanjung Pinang",
@@ -1649,7 +1649,7 @@ var allUserData = [
 	{
 		name: "Piper Olsen",
 		date: "10-06-2017",
-		address: "P.O. Box 539, 2870 Dapibus Road",
+		address: "PO Box 539, 2870 Dapibus Road",
 		region: "Bangka Belitung Islands",
 		city: "Bima",
 		city1: "Ambon",
@@ -1667,7 +1667,7 @@ var allUserData = [
 	{
 		name: "Chandler Knox",
 		date: "25-01-2021",
-		address: "Ap #829-2637 Mus. St.",
+		address: "Ap 829-2637 Mus St",
 		region: "Bali",
 		city: "Kupang",
 		city1: "Pangkalpinang",
@@ -1676,7 +1676,7 @@ var allUserData = [
 	{
 		name: "Jacob Massey",
 		date: "06-08-2019",
-		address: "P.O. Box 422, 5809 Curabitur Avenue",
+		address: "PO Box 422, 5809 Curabitur Avenue",
 		region: "Special Capital Region of Jakarta",
 		city: "Banjarbaru",
 		city1: "Tarakan",
@@ -1685,7 +1685,7 @@ var allUserData = [
 	{
 		name: "Harlan Humphrey",
 		date: "10-06-2018",
-		address: "Ap #715-9620 Ipsum Street",
+		address: "Ap 715-9620 Ipsum Street",
 		region: "West Sumatra",
 		city: "Central Jakarta",
 		city1: "Bukittinggi",
@@ -1694,7 +1694,7 @@ var allUserData = [
 	{
 		name: "Cailin Park",
 		date: "09-01-2020",
-		address: "192-6184 Semper St.",
+		address: "192-6184 Semper St",
 		region: "West Sulawesi",
 		city: "Pangkalpinang",
 		city1: "Yogyakarta",
@@ -1703,7 +1703,7 @@ var allUserData = [
 	{
 		name: "Zahir Melton",
 		date: "15-08-2017",
-		address: "Ap #315-1321 Risus Street",
+		address: "Ap 315-1321 Risus Street",
 		region: "Riau",
 		city: "Tanjung Pinang",
 		city1: "Pangkalpinang",
@@ -1712,7 +1712,7 @@ var allUserData = [
 	{
 		name: "Steven O'brien",
 		date: "04-10-2020",
-		address: "871-1544 In Rd.",
+		address: "871-1544 In Rd",
 		region: "West Nusa Tenggara",
 		city: "Medan",
 		city1: "Tomohon",
@@ -1721,7 +1721,7 @@ var allUserData = [
 	{
 		name: "Ora Pena",
 		date: "22-11-2020",
-		address: "Ap #359-765 Vitae Street",
+		address: "Ap 359-765 Vitae Street",
 		region: "South Kalimantan",
 		city: "Tarakan",
 		city1: "Balikpapan",
@@ -1730,7 +1730,7 @@ var allUserData = [
 	{
 		name: "Courtney Elliott",
 		date: "20-12-2016",
-		address: "Ap #350-6783 Egestas. Avenue",
+		address: "Ap 350-6783 Egestas Avenue",
 		region: "North Sulawesi",
 		city: "Gorontalo",
 		city1: "Metro",
@@ -1739,7 +1739,7 @@ var allUserData = [
 	{
 		name: "Conan Snyder",
 		date: "17-07-2019",
-		address: "981-4574 Tincidunt Av.",
+		address: "981-4574 Tincidunt Av",
 		region: "Jambi",
 		city: "Yogyakarta",
 		city1: "Sungai Penuh",
@@ -1748,7 +1748,7 @@ var allUserData = [
 	{
 		name: "Graiden Chandler",
 		date: "19-05-2020",
-		address: "Ap #647-2884 Sed Avenue",
+		address: "Ap 647-2884 Sed Avenue",
 		region: "Bengkulu",
 		city: "Banjarmasin",
 		city1: "Banda Aceh",
@@ -1757,7 +1757,7 @@ var allUserData = [
 	{
 		name: "Kimberley Koch",
 		date: "27-01-2018",
-		address: "P.O. Box 318, 7904 In Avenue",
+		address: "PO Box 318, 7904 In Avenue",
 		region: "Southeast Sulawesi",
 		city: "Ambon",
 		city1: "Denpasar",
@@ -1766,7 +1766,7 @@ var allUserData = [
 	{
 		name: "Lucius Moss",
 		date: "04-11-2016",
-		address: "P.O. Box 649, 1741 Fusce Avenue",
+		address: "PO Box 649, 1741 Fusce Avenue",
 		region: "North Maluku",
 		city: "Palembang",
 		city1: "Padang",
@@ -1775,7 +1775,7 @@ var allUserData = [
 	{
 		name: "Basil Bowman",
 		date: "29-08-2018",
-		address: "634-6243 Eros. Rd.",
+		address: "634-6243 Eros Rd",
 		region: "Papua",
 		city: "Denpasar",
 		city1: "Pangkalpinang",
@@ -1784,7 +1784,7 @@ var allUserData = [
 	{
 		name: "Shea Perkins",
 		date: "29-11-2020",
-		address: "P.O. Box 974, 5625 Elit, Road",
+		address: "PO Box 974, 5625 Elit, Road",
 		region: "Central Kalimantan",
 		city: "Banda Aceh",
 		city1: "Gorontalo",
@@ -1793,7 +1793,7 @@ var allUserData = [
 	{
 		name: "Cade Branch",
 		date: "13-03-2018",
-		address: "Ap #527-4901 Lorem Rd.",
+		address: "Ap 527-4901 Lorem Rd",
 		region: "North Kalimantan",
 		city: "Pariaman",
 		city1: "Banda Aceh",
@@ -1802,17 +1802,17 @@ var allUserData = [
 ];
 
 var userImages = [
-	{ source: "images/v3_0033808.jpg", gender: "male" },
-	{ source: "images/v3_0060126.jpg", gender: "male" },
-	{ source: "images/v3_0113594.jpg", gender: "male" },
-	{ source: "images/v3_0217484.jpg", gender: "female" },
-	{ source: "images/v3_0303148.jpg", gender: "male" },
-	{ source: "images/v3_0414722.jpg", gender: "male" },
-	{ source: "images/v3_0460385.jpg", gender: "female" },
-	{ source: "images/v3_0571176.jpg", gender: "male" },
-	{ source: "images/v3_0671215.jpg", gender: "male" },
-	{ source: "images/v3_0822522.jpg", gender: "female" },
-	{ source: "images/v3_0893680.jpg", gender: "female" },
-	{ source: "images/v3_0910735.jpg", gender: "female" },
-	{ source: "images/v3_0958983.jpg", gender: "female" },
+	{ source: "images/v3_0033808jpg", gender: "male" },
+	{ source: "images/v3_0060126jpg", gender: "male" },
+	{ source: "images/v3_0113594jpg", gender: "male" },
+	{ source: "images/v3_0217484jpg", gender: "female" },
+	{ source: "images/v3_0303148jpg", gender: "male" },
+	{ source: "images/v3_0414722jpg", gender: "male" },
+	{ source: "images/v3_0460385jpg", gender: "female" },
+	{ source: "images/v3_0571176jpg", gender: "male" },
+	{ source: "images/v3_0671215jpg", gender: "male" },
+	{ source: "images/v3_0822522jpg", gender: "female" },
+	{ source: "images/v3_0893680jpg", gender: "female" },
+	{ source: "images/v3_0910735jpg", gender: "female" },
+	{ source: "images/v3_0958983jpg", gender: "female" },
 ];
