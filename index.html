@@ -187,15 +187,15 @@
             function startDate() {
                 let date = new Date();
                 date.setFullYear(date.getFullYear() - 60);
-                return date
+                return date;
             }
             function endDate() {
                 let date = new Date();
                 date.setFullYear(date.getFullYear() - 19);
-                return date
+                return date;
             }
-            const minValue = startDate().getTime();;
-            const maxValue = endDate().getTime();;
+            const minValue = startDate().getTime();
+            const maxValue = endDate().getTime();
             const timestamp = Math.floor(
                 Math.random() * (maxValue - minValue + 1) + minValue
             );
@@ -215,13 +215,13 @@
         var issueDate = [(initial[0].length == 1 ? '0' : '') + initial[0], (initial[1].length == 1 ? '0' : '') + initial[1], initial[2]].join("-");
 
         function randomIntFromInterval(min, max) { // min and max included 
-            return Math.floor(Math.random() * (max - min + 1) + min)
+            return Math.floor(Math.random() * (max - min + 1) + min);
         }
 
-        var rndInt = randomIntFromInterval(1, 49)
-        var singleUserData = allUserData[rndInt]
-        var rndInt = randomIntFromInterval(1, 12)
-        var singleUserSource = userImages[rndInt]
+        var rndInt = randomIntFromInterval(1, 49);
+        var singleUserData = allUserData[rndInt];
+        var rndInt = randomIntFromInterval(1, 12);
+        var singleUserSource = userImages[rndInt];
 
         function getRandomProvinceCode() {
             const provinceCodes = ['11', '12', '13', '14', '15', '16', '17', '18', '19', '21', '31', '32', '33', '34', '35', '36', '51', '52', '53', '61', '62', '63', '64', '65', '71', '72', '73', '74', '75', '76', '81', '82', '91', '92'];
