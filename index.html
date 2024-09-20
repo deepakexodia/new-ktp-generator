@@ -152,11 +152,27 @@
             width: 107px;
             filter: blur(1px);
         }
+
+        .scaleBox {
+            position: fixed;
+            right: 0;
+            padding: 20px;
+            z-index: 1000;
+            display: flex; 
+            justify-content: center; 
+            transform: rotate(270deg);
+        }
+
+        .scaleBox > input {
+            width: 300px; 
+            padding: 15px;
+        }
     </style>
 </head>
+
 <body>
     <div class="parentBox">
-        <div class="box">
+        <div id="ktp" class="box">
             <div class="photoContainer">
                 <img class="profileimg" src="">
                 <div class="shrtdisc">
@@ -180,6 +196,10 @@
             <input type="text" class="pek" value="">
             <input type="text" class="kew" value="">
             <input type="text" class="ber" value="">
+        </div>
+        <div class="scaleBox">
+            <span>Scale</span>
+            <input type="range" id="scale" min="0.25" max="2" step="0.01" value="1">
         </div>
     </div>
     <script>
@@ -269,6 +289,19 @@
         document.getElementsByClassName("ber")[0].value = "SEUMUR HIDUP"
         // document.getElementsByClassName("region2")[0].value = singleUserData.city1
         // document.getElementsByClassName("tem")[0].value = issueDate
+
+        //scale start
+        {
+            const ktp = document.getElementById("ktp");
+            const scale = document.getElementById("scale");
+            scale.addEventListener("input", function () {
+                const scaleValue = scale.value;
+                ktp.style.transform = `scale(${scaleValue})`;
+            });
+        }
+        //scale end
+
     </script>
 </body>
+
 </html>
