@@ -166,55 +166,6 @@
             width: 500px; 
             padding: 20px;
         }
-
-        .light {
-          position: absolute;
-          top: 40%;
-          left: 45%;
-          width: 10px;
-          height: 10px;
-          background-color: #fff;
-          border-radius: 50%;
-          box-shadow:
-            0 0 30px 15px rgba(255, 255, 255, 0.8),
-            0 0 60px 30px rgba(255, 255, 255, 0.6),
-            0 0 90px 45px rgba(255, 255, 255, 0.3);
-          animation: glow 2s infinite ease-in-out;
-          cursor: grab;
-        }
-
-    @keyframes glow {
-      0% {
-        box-shadow:
-          0 0 30px 15px rgba(255, 255, 255, 0.8),
-          0 0 60px 30px rgba(255, 255, 255, 0.6),
-          0 0 90px 45px rgba(255, 255, 255, 0.3);
-      }
-      100% {
-        box-shadow:
-          0 0 60px 30px rgba(255, 255, 255, 1),
-          0 0 120px 60px rgba(255, 255, 255, 0.8),
-          0 0 180px 90px rgba(255, 255, 255, 0.6);
-      }
-    }
-
-.black {
-      position: absolute;
-      width: 10px;
-      height: 10px;
-      border-radius: 50%;
-      background: radial-gradient(circle at center, #000 0%, #111 60%, #222 100%);
-      top: 40%;
-      left: 45%;
-      cursor: grab;
-      box-shadow:
-        inset 0 0 80px rgba(0, 0, 0, 1),
-        0 0 200px 60px rgba(0, 0, 0, 1),
-        0 0 400px 100px rgba(0, 0, 0, 0.9),
-        0 0 700px 180px rgba(0, 0, 0, 0.8),
-        0 0 1200px 240px rgba(0, 0, 0, 0.65);
-    }
-    
     </style>
 </head>
 
@@ -249,8 +200,6 @@
             <span>Scale</span>
             <input type="range" id="scale" min="0.25" max="3" step="0.01" value="1">
         </div>
-        <div class="light" id="light"></div>
-        <div class="black" id="black"></div>
     </div>
     <script>
         function getRandomDate() {
@@ -351,55 +300,6 @@
         }
         //scale end
 
-    //lightbulb start
-    const light = document.getElementById('light');
-    let isDragging = false;
-    let offsetX = 0;
-    let offsetY = 0;
-
-    light.addEventListener('mousedown', (e) => {
-      isDragging = true;
-      offsetX = e.clientX - light.offsetLeft;
-      offsetY = e.clientY - light.offsetTop;
-      light.style.cursor = 'grabbing';
-    });
-
-    document.addEventListener('mousemove', (e) => {
-      if (!isDragging) return;
-      light.style.left = `${e.clientX - offsetX}px`;
-      light.style.top = `${e.clientY - offsetY}px`;
-    });
-
-    document.addEventListener('mouseup', () => {
-      isDragging = false;
-      light.style.cursor = 'grab';
-    });
-    //lightbulb end
-
-    //blackhole start    
-    const black = document.getElementById('black');
-    let isDragging = false;
-    let offsetX = 0;
-    let offsetY = 0;
-
-    black.addEventListener('mousedown', (e) => {
-      isDragging = true;
-      offsetX = e.clientX - black.offsetLeft;
-      offsetY = e.clientY - black.offsetTop;
-      black.style.cursor = 'grabbing';
-    });
-
-    document.addEventListener('mousemove', (e) => {
-      if (!isDragging) return;
-      black.style.left = `${e.clientX - offsetX}px`;
-      black.style.top = `${e.clientY - offsetY}px`;
-    });
-
-    document.addEventListener('mouseup', () => {
-      isDragging = false;
-      black.style.cursor = 'grab';
-    });    
-    //blackhole end    
     </script>
 </body>
 </html>
